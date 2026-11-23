@@ -1,0 +1,15 @@
+# Fixed-archive replay design
+
+Design written before calculating policy performance. Exploratory methods study with public, previously analyzed data. Unit of aggregation is an equally weighted question, followed by a uniformly weighted replicate. Calls are stateless. The fallback receives the original prompt. A length gate observes the entire first response before deciding to replace it. The first call is paid in all policies. No text or grade from the fallback is a policy feature.
+
+## Contrasts
+
+Use the 75th percentile of first-stage lengths in a disjoint calibration subset as the primary escalation threshold. Escalate strictly above the cutoff. Calibration uses the first fifth of questions in ascending SHA-256 of the original question identifier, rounded down. A second gate uses the median. Use all remaining questions for evaluation. Evaluate long-output escalation versus keeping the first answer, versus a label-blind random upgrade matched to the overall evaluation call fraction, versus a diagnostic random gate matched separately within each question, and versus the median gate. The within-question control requires replicate information and serves as an offline decomposition. Also compare to always using the fallback. The primary comparison is the upper-quartile gate versus the overall call-matched random gate. Matching uses first-stage lengths alone. Report the sign even if zero or unfavorable.
+
+## Inputs
+
+Primary archive is Chen's November 2026 MATH-500 B300 run (Zenodo version 23939046), Nano 9B to Super 49B. Secondary configuration uses the same Nano first stage with Llama 70B. Independent source is MathArena's combined AIME 2025 release, revision 16e93d3bb9b0a25ea9422893464d46b3c5ff0ae9. Choose smaller/larger model configurations from the same named family using coverage and metadata before scoring. Require complete, unique numeric replicate indices and nonnegative output token counts. Document all exclusions. Project only identifiers, length, and published grade. No new inference or judge calls.
+
+## Estimation
+
+For each contrast use a single common replay alignment for both policies. Report sharp ranges for one model-wide reindexing and separate within-question reindexings, identity alignment, independent within-question pairing, and exact SD under uniform reindexing. Calculate support in directions of correctness, fallback output tokens, and net utility at penalties of 0.1, 1, and 10 percentage points per additional 1,000 fallback tokens. These are exchange rates, not prices. Output tokens measured inside the same fallback model are comparable between the two policies. Precision target and timing are outside scope. Compute how many question-specific departures from the identity alignment suffice to erase its directional accuracy finding. Evaluate the equally weighted full archive as a sensitivity check using the same frozen threshold. Use brute-force assignment and exhaustive small randomization distributions as independent code checks. No inference from the finite archive to a population of new prompts or outputs is intended.
