@@ -9,3 +9,5 @@ if ($LASTEXITCODE) {throw 'Unit tests failed'}
 if ($LASTEXITCODE) {throw 'Study failed'}
 & $py verify_reports.py
 if ($LASTEXITCODE) {throw 'Report verification failed'}
+& $py repair_aime.py
+if ($LASTEXITCODE) {throw 'AIME character sensitivity failed'}
