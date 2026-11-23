@@ -7,20 +7,13 @@
 \newcommand{\Var}{\operatorname{Var}}
 \newcommand{\Cov}{\operatorname{Cov}}
 \newcommand{\ind}{\mathbf 1}
-\title{Does the same cascade win after the draws are reindexed?\\[3pt]\large Exact comparisons from unpaired model logs}
+\title{Does a language-model cascade win at the same spend?\\[3pt]\large Sharp comparisons from unpaired response logs}
 \author{Yunjie Guo \and Hanqing Yang\thanks{Correspondence: \texttt{hanqing.yang189@gmail.com}.} }
 \date{Independent Researcher, Suzhou, China}
 \begin{document}
 \maketitle
 \input{abstract}
-\section{The choice hidden in a replay}
-Consider two systems that both obtain a first answer. One calls a second model after an unusually long first response, the other escalates with a fixed probability. A public benchmark contains several answers from each model on each question. Pairing first answer 1 with fallback answer 1 produces a number for both systems. Renumbering only the fallback responses leaves both models' standalone accuracy, length distribution, and each system's call rate unchanged. Can it change which system wins?
-
-This question arises even with a completely specified gate. An evaluator can intend fresh independent calls, deliberately use common random numbers, or have only unpaired historical logs. Each design supplies different information. If the intended calls are independent given the question and model configurations, averaging all pairs of archived answers directly computes the empirical product replay. A one-to-one match discards information for that estimand. If the draws share an unrecorded session condition, the logs alone need not identify the joint outcomes. If the fallback consumes the first answer as part of its prompt, its standalone response distribution can itself change. The present calculation applies to stateless replacement on the original question.
-
-Research on cascades has developed learned deferral rules from uncertainty features \cite{gupta}. An independently studied routing oracle asks whether any sampled model answered correctly \cite{chen1,chen2}. Pre-answer routing analyses also separate a pool's opportunity from the value available to an implementable router \cite{shihab}. Here a specific response-dependent gate replaces a completed answer, and two policies must be evaluated on the \emph{same} possible alignment. The question concerns the reproducibility of signed comparisons, including the tokens spent on the responses actually selected.
-
-Our audit supplies three quantities for that decision: extremal differences over declared reindexings, variation under uniform reindexing, and the smallest number of question-specific alignment changes that can erase the identity-match result. The optimization and randomization identities build on classical assignment and permutation theory \cite{kuhn,hoeffding}. The application-specific step is to reduce the entire policy contrast, with its retained-answer term and joint quality--cost direction, to a common matrix shared by both policies. This also distinguishes a global column-label convention from unconstrained per-question matching.
+\input{intro}
 
 \section{What an archive identifies}
 There are $n$ equally weighted questions and $m\ge2$ observed replicates per model and question. For question $i$, let $y_{ir}$ be the archived grade of first-stage answer $r$ and $(z_{is},t_{is})$ the grade and output tokens of fallback answer $s$. The observed first-stage signals give two escalation probabilities $g_{ir},h_{ir}\in[0,1]$. Policy coins are independent of fallback draws. Write $d_{ir}=g_{ir}-h_{ir}$. For unrestricted real coefficients $a,b$, take $v_{is}=a z_{is}+b t_{is}$ and $C=-a\sum_{ir}d_{ir}y_{ir}$. The policy contrast in expected utility under an alignment $\pi_i$ is
@@ -33,6 +26,47 @@ To see this, write policy accuracy as the average of $(1-g)y+g z$, and extra out
 
 A single block models one common reindexing of the replicate columns across all questions. Singleton blocks permit a different mapping on every question. For a singleton, sorting $d$ and $v$ in the same (opposite) order maximizes (minimizes) the sum by pairwise interchange. Refining the blocks can only expand the range. The common-matrix calculation takes $O(nm^2+m^3)$ time with a cubic assignment solver and $O(m^2)$ working space if streamed. Separate sorting takes $O(nm\log m)$. If known pairs must be preserved, only alignments consistent with that design are meaningful.
 
+\input{spend-method}
+
+\section{Evaluation design}
+We projected two independently published archives to five fields: question identifier, model configuration, replicate position, output length and published correctness. The MATH-500 release provides thirty generations per question for three models under a frozen sampling and scoring protocol \cite{chen2,data1}. The primary cascade runs Nemotron Nano 9B first and uses Nemotron Super 49B as fallback. A second configuration keeps the same first stage and uses Llama 3.3 70B. That model's lower published accuracy makes this a useful negative comparison. These two configurations reuse questions and Nano draws. The second source is MathArena's combined AIME 2025 release, with four answer positions per DeepSeek distill model and question \cite{matharena,data2}. The calibration and evaluation sample sizes appear in Table~\ref{tab:sample}. An index denotes the publisher's draw position. A shared index does not by itself establish a shared random seed or shared serving condition.
+
+We rank question identifiers by SHA-256 and take the first fifth for calibration. The cutoff is the nearest-rank 75th percentile of all first-stage token lengths in that subset. On evaluation questions the gate escalates strictly above the frozen cutoff. This signal is available after the first answer finishes. The study uses it as a transparent reproducible gate. We make no claim that it is an optimal uncertainty measure. Identical thresholds are reused for the all-question sensitivity.
+
+The call-matched comparator escalates at a constant probability equal to the evaluation gate's overall call fraction, fixed using first-stage signals alone. This controls expected call count over the archive. The second diagnostic comparator uses the gate's call rate separately on each question. It would require knowledge of the per-question repeat distribution. Under product replay its accuracy gap from the gate is $-\E_i\Cov_r(g,y\mid i)$; it isolates the targeting of unsuccessful first answers within questions. Subtracting this component from the globally matched contrast leaves $\Cov_i(\bar g_i,\bar z_i-\bar y_i)$, a between-question allocation effect. These identities follow by expanding the product mean. Further comparisons keep every first answer, always accept the fallback after the first call, or escalate above the first-stage median. We express token weights in accuracy points per thousand additional fallback output tokens. The prices 0.1, 1 and 10 span two orders of magnitude and carry no claim about a provider tariff.
+
+\input{spend-results}
+\section{Interpretation and limits}
+The two external audits delimit the practical claim. Many FrugalGPT policies outperform even the best affordable direct lottery, whereas rising above that lottery is difficult for the simple MATH length gate. For AutoMix, comparing at a common budget mostly preserves the published family choice. A nominal ranking change matters less when its largest cost-adjusted consequence is 0.14 score points. Comparisons in expected spend also permit occasional expensive calls. A hard per-request limit would define a different feasible policy set.
+
+A model-wide reindexing is a sensitivity check for changing a single run-label convention. A question-specific reindexing admits heterogeneous dependence. Neither describes a measured property of an inference service. If both generators are freshly and independently sampled, the product replay is the relevant empirical point. Draw position is a real example of a shared indexing convention even when seeds are model specific. If paired seeds, load conditions or session metadata define the deployment, those conditions should be retained and the permitted mappings restricted accordingly. Very wide arbitrary-coupling ranges can coexist with little variation among uniform shuffles, because an extremal alignment actively selects which fallback answers will count.
+
+The experiments hold the question list, correctness parser, draw pool, gate and model version fixed. A wrong archived grade changes the underlying input. Four AIME draws give only coarse empirical distributions, and changing providers or decoding rules can change all model marginals. The high cutoff is fitted on disjoint questions, but every observed effect remains descriptive of a fixed archive. The token measure omits first-stage latency, input billing, hardware utilization and concurrency. No live system was timed. A conversational fallback that sees a first-stage solution requires conditional generation data. Neither archive identifies that distribution.
+
+\paragraph{Reproducibility and declarations.} The release (\href{https://github.com/fightforbelief/p11-cascade-replay}{GitHub repository}) includes projected records, upstream identifiers and checksums, deterministic policy code, extremizing global permutations, formal execution metadata, and exhaustive small-instance checks. This research received no specific funding. The authors declare no competing interests.
+\begingroup\small
+\begin{thebibliography}{10}
+\setlength{\itemsep}{2pt}
+\bibitem{routerbench} Q. J. Hu et al. RouterBench: A benchmark for multi-LLM routing system. 2024. \href{https://arxiv.org/abs/2403.12031}{arXiv:2403.12031}.
+\bibitem{uniroute} W. Jitkrittum et al. Universal model routing for efficient LLM inference. ICLR, 2026. \href{https://openreview.net/forum?id=ka82fvJ5f1}{OpenReview}.
+\bibitem{cascade} J. Dekoninck, M. Baader and M. Vechev. A unified approach to routing and cascading for LLMs. ICML, 2025. \href{https://proceedings.mlr.press/v267/dekoninck25a.html}{PMLR 267}.
+\bibitem{frugal} L. Chen, M. Zaharia and J. Zou. FrugalGPT: How to use large language models while reducing cost and improving performance. Transactions on Machine Learning Research, 2024. \href{https://openreview.net/forum?id=cSimKw5p6R}{OpenReview}.
+\bibitem{automix} P. Aggarwal et al. AutoMix: Automatically mixing language models. NeurIPS, 2024. \href{https://doi.org/10.52202/079017-4164}{doi:10.52202/079017-4164}.
+\bibitem{sion} M. Sion. On general minimax theorems. Pacific Journal of Mathematics 8, 171--176 (1958).
+\bibitem{gupta} N. Gupta et al. Language model cascades: Token-level uncertainty and beyond. ICLR, 2024. \href{https://arxiv.org/abs/2404.10136}{arXiv:2404.10136}.
+\bibitem{chen1} T.-R. Chen. What does a routing oracle measure under stochastic decoding? Coupling, scorer choice, and single-commit ceilings. 2026, version 3. \href{https://arxiv.org/abs/2607.03436v3}{arXiv:2607.03436v3}.
+\bibitem{chen2} T.-R. Chen. When strong reasoners join the pool: Small union premiums and costly runaway generations in LLM routing. 2026. \href{https://arxiv.org/abs/2611.04098}{arXiv:2611.04098}.
+\bibitem{shihab} I. F. Shihab, A. S.-A. M. M. Al Ahsan and M. N. Swaqeeb. Opportunity is not realizability: Selection-valid diagnostics for multi-LLM routing. 2026. \href{https://arxiv.org/abs/2608.08265}{arXiv:2608.08265}.
+\bibitem{kuhn} H. W. Kuhn. The Hungarian method for the assignment problem. Naval Research Logistics Quarterly 2, 83--97 (1955). \href{https://doi.org/10.1002/nav.3800020109}{doi:10.1002/nav.3800020109}.
+\bibitem{hoeffding} W. Hoeffding. A combinatorial central limit theorem. Annals of Mathematical Statistics 22, 558--566 (1951).
+\bibitem{matharena} M. Balunovi\'c, J. Dekoninck, I. Petrov, N. Jovanovi\'c and M. Vechev. MathArena: Evaluating LLMs on uncontaminated math competitions. NeurIPS, 2025. \href{https://doi.org/10.52202/085713-0679}{doi:10.52202/085713-0679}.
+\bibitem{data1} T.-R. Chen. Run record and code (NVIDIA B300, MATH-500). \href{https://doi.org/10.5281/zenodo.23939046}{Zenodo, version 23939046}.
+\bibitem{data2} MathArena. \href{https://huggingface.co/datasets/MathArena/aime_2025_outputs/tree/16e93d3bb9b0a25ea9422893464d46b3c5ff0ae9}{AIME 2025 outputs}, revision 16e93d3.
+\end{thebibliography}
+\endgroup
+\clearpage
+\appendix
+\section{Alignment diagnostics for two fixed gates}
 \paragraph{When no alignment can matter.} Let $H=I-\boldsymbol 1\boldsymbol 1^T/m$. For a block, all permutations have the same sum exactly when $HM^BH=0$. The forward implication follows by exchanging columns assigned to two distinct rows. All two-by-two alternating sums must vanish, so the matrix is a row effect plus a column effect. Such effects contribute the same sum to every permutation, proving the reverse implication. At singleton resolution this condition holds precisely when either the policy difference or the fallback utility is constant within each question. At coarser resolution opposing interactions may cancel across questions.
 
 \paragraph{Typical reindexings.} Assign independent uniform permutations to the blocks. Their mean is the product replay
@@ -49,32 +83,5 @@ Indeed centering eliminates constant terms. For a centered matrix, same-row squa
 
 \paragraph{Accuracy and token cost.} Varying $(a,b)$ computes support values of the joint achievable region, or its convex hull for deterministic alignments. Subtracting the largest cost from the smallest accuracy can join two incompatible alignments. For example, if a fallback's only two draws have (grade, cost) $(0,0)$ and $(1,1)$ and cost has unit weight, every routed draw has zero net value. Separate marginal endpoints allow a negative value. Likewise, separate intervals for the two policies can combine incompatible response pairings. Equation~\eqref{eq:contrast} optimizes their difference directly.
 
-\section{Evaluation design}
-We projected two independently published archives to five fields: question identifier, model configuration, replicate position, output length and published correctness. The MATH-500 release provides thirty generations per question for three models under a frozen sampling and scoring protocol \cite{chen2,data1}. The primary cascade runs Nemotron Nano 9B first and uses Nemotron Super 49B as fallback. A second configuration keeps the same first stage and uses Llama 3.3 70B. That model's lower published accuracy makes this a useful negative comparison. These two configurations reuse questions and Nano draws. The second source is MathArena's combined AIME 2025 release, with four answer positions per model and question \cite{matharena,data2}. Model family, configurations and exclusions appear in Table~\ref{tab:sample}. An index denotes the publisher's draw position. A shared index does not by itself establish a shared random seed or shared serving condition.
-
-We rank question identifiers by SHA-256 and take the first fifth for calibration. The cutoff is the nearest-rank 75th percentile of all first-stage token lengths in that subset. On evaluation questions the gate escalates strictly above the frozen cutoff. This signal is available after the first answer finishes. The study uses it as a transparent reproducible gate. We make no claim that it is an optimal uncertainty measure. Identical thresholds are reused for the all-question sensitivity.
-
-The primary comparator escalates at a constant probability equal to the evaluation gate's overall call fraction, fixed using first-stage signals alone. This controls expected call count over the archive. The second diagnostic comparator uses the gate's call rate separately on each question. It would require knowledge of the per-question repeat distribution. Under product replay its accuracy gap from the gate is $-\E_i\Cov_r(g,y\mid i)$; it isolates the targeting of unsuccessful first answers within questions. Subtracting this component from the globally matched contrast leaves $\Cov_i(\bar g_i,\bar z_i-\bar y_i)$, a between-question allocation effect. These identities follow by expanding the product mean. Further comparisons keep every first answer, always accept the fallback after the first call, or escalate above the first-stage median. We express token weights in accuracy points per thousand additional fallback output tokens. The prices 0.1, 1 and 10 span two orders of magnitude and carry no claim about a provider tariff.
-
 \input{results}
-\section{Interpretation and limits}
-A model-wide reindexing is a sensitivity check for changing a single run-label convention. A question-specific reindexing admits heterogeneous dependence. Neither describes a measured property of an inference service. If both generators are freshly and independently sampled, the product replay is the relevant empirical point. Draw position is a real example of a shared indexing convention even when seeds are model specific. If paired seeds, load conditions or session metadata define the deployment, those conditions should be retained and the permitted mappings restricted accordingly. Very wide arbitrary-coupling ranges can coexist with little variation among uniform shuffles, because an extremal alignment actively selects which fallback answers will count.
-
-The experiments hold the question list, correctness parser, draw pool, gate and model version fixed. A wrong archived grade changes the underlying input. Four AIME draws give only coarse empirical distributions, and changing providers or decoding rules can change all model marginals. The high cutoff is fitted on disjoint questions, but every observed effect remains descriptive of a fixed archive. The token measure omits first-stage latency, input billing, hardware utilization and concurrency. No live system was timed. A conversational fallback that sees a first-stage solution requires conditional generation data. Neither archive identifies that distribution.
-
-\paragraph{Reproducibility and declarations.} The release (\href{https://github.com/fightforbelief/p11-cascade-replay}{GitHub repository}) includes projected records, upstream identifiers and checksums, deterministic policy code, extremizing global permutations, formal execution metadata, and exhaustive small-instance checks. Funding: no specific funding. The authors declare no competing interests.
-\begingroup\small
-\begin{thebibliography}{10}
-\setlength{\itemsep}{2pt}
-\bibitem{gupta} N. Gupta et al. Language model cascades: Token-level uncertainty and beyond. ICLR, 2024. \href{https://arxiv.org/abs/2404.10136}{arXiv:2404.10136}.
-\bibitem{chen1} T.-R. Chen. What does a routing oracle measure under stochastic decoding? Coupling, scorer choice, and single-commit ceilings. 2026, version 3. \href{https://arxiv.org/abs/2607.03436v3}{arXiv:2607.03436v3}.
-\bibitem{chen2} T.-R. Chen. When strong reasoners join the pool: Small union premiums and costly runaway generations in LLM routing. 2026. \href{https://arxiv.org/abs/2611.04098}{arXiv:2611.04098}.
-\bibitem{shihab} I. F. Shihab, A. S.-A. M. M. Al Ahsan and M. N. Swaqeeb. Opportunity is not realizability: Selection-valid diagnostics for multi-LLM routing. 2026. \href{https://arxiv.org/abs/2608.08265}{arXiv:2608.08265}.
-\bibitem{kuhn} H. W. Kuhn. The Hungarian method for the assignment problem. Naval Research Logistics Quarterly 2, 83--97 (1955). \href{https://doi.org/10.1002/nav.3800020109}{doi:10.1002/nav.3800020109}.
-\bibitem{hoeffding} W. Hoeffding. A combinatorial central limit theorem. Annals of Mathematical Statistics 22, 558--566 (1951).
-\bibitem{matharena} M. Balunovi\'c, J. Dekoninck, I. Petrov, N. Jovanovi\'c and M. Vechev. MathArena: Evaluating LLMs on uncontaminated math competitions. NeurIPS, 2025. \href{https://doi.org/10.52202/085713-0679}{doi:10.52202/085713-0679}.
-\bibitem{data1} T.-R. Chen. Run record and code (NVIDIA B300, MATH-500). \href{https://doi.org/10.5281/zenodo.23939046}{Zenodo, version 23939046}.
-\bibitem{data2} MathArena. \href{https://huggingface.co/datasets/MathArena/aime_2025_outputs/tree/16e93d3bb9b0a25ea9422893464d46b3c5ff0ae9}{AIME 2025 outputs}, revision 16e93d3.
-\end{thebibliography}
-\endgroup
 \end{document}

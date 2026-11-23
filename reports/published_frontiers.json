@@ -1,0 +1,4510 @@
+{
+  "AGNEWS": {
+    "native": {
+      "summary": {
+        "rows": 20,
+        "unique": 5,
+        "comparable": 20,
+        "single_wins": 20,
+        "mixture_wins": 20,
+        "mixture_wins_over_one_point": 0,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 0,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 20,
+        "cascade_over_budget": 0
+      },
+      "unique_test_envelope": {
+        "comparable": 5,
+        "single_wins": 5,
+        "mixture_wins": 5,
+        "mixture_wins_over_one_point": 0,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 9e-05,
+          "cascade_test_cost": 7.378368947368421e-05,
+          "cascade_test_score": 0.8905263157894737,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -0.97368421052632,
+          "single_gap_pp": 0.76315789473684,
+          "hull_gap_pp": 0.6933641874248047,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.06468685067944815,
+            "gemini-1.5-flash": 0.9353131493205519
+          },
+          "frozen_cost": 8.988938428745961e-05,
+          "frozen_score": 0.8839696310310584,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.09962433946394941,
+            "gemini-1.5-flash": 0.9003756605360506
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.6556684758415274
+        },
+        {
+          "budget": 0.000365789,
+          "cascade_test_cost": 0.00032147,
+          "cascade_test_score": 0.8923684210526316,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -0.78947368421053,
+          "single_gap_pp": 0.94736842105263,
+          "hull_gap_pp": 0.2978597847863815,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.6019836141004326,
+            "gemini-1.5-flash": 0.3980163858995675
+          },
+          "frozen_cost": 0.00036533503383278157,
+          "frozen_score": 0.8904164933876257,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.6971384115360438,
+            "gemini-1.5-flash": 0.30286158846395617
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.1951927665005915
+        },
+        {
+          "budget": 0.000706579,
+          "cascade_test_cost": 0.000564678,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.6322379447871888,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.9610016760765053,
+            "claude-3-5-sonnet-20240620": 0.03899832392349465
+          },
+          "frozen_cost": 0.0007056545729458898,
+          "frozen_score": 0.89454635817776,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.8689535569804703,
+            "claude-3-5-sonnet-20240620": 0.13104644301952972
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.5716799716976906
+        },
+        {
+          "budget": 0.001047368,
+          "cascade_test_cost": 0.00083173,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.517522942914474,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.7866348732299829,
+            "claude-3-5-sonnet-20240620": 0.2133651267700171
+          },
+          "frozen_cost": 0.0010459409929619934,
+          "frozen_score": 0.8960080943680677,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.6467696560536962,
+            "claude-3-5-sonnet-20240620": 0.3532303439463038
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.4255063526669149
+        },
+        {
+          "budget": 0.001388158,
+          "cascade_test_cost": 0.00083173,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.517522942914474,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.7866348732299829,
+            "claude-3-5-sonnet-20240620": 0.2133651267700171
+          },
+          "frozen_cost": 0.0013862284115033429,
+          "frozen_score": 0.897469834847646,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.4245851031578124,
+            "claude-3-5-sonnet-20240620": 0.5754148968421876
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.27933230470909337
+        },
+        {
+          "budget": 0.001728947,
+          "cascade_test_cost": 0.00083173,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.517522942914474,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.7866348732299829,
+            "claude-3-5-sonnet-20240620": 0.2133651267700171
+          },
+          "frozen_cost": 0.0017265148315194466,
+          "frozen_score": 0.8989315710379537,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.2024012022310383,
+            "claude-3-5-sonnet-20240620": 0.7975987977689617
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.13315868567831765
+        },
+        {
+          "budget": 0.002069737,
+          "cascade_test_cost": 0.00083173,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.517522942914474,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.7866348732299829,
+            "claude-3-5-sonnet-20240620": 0.2133651267700171
+          },
+          "frozen_cost": 0.002066805685952322,
+          "frozen_score": 0.9002522966381834,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.9917454450193701,
+            "gpt-4-turbo": 0.008254554980629924
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.0010861256553461164
+        },
+        {
+          "budget": 0.002410526,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.0024071306939606875,
+          "frozen_score": 0.9001303154636646,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.8990397523851131,
+            "gpt-4-turbo": 0.10096024761488681
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.06591582205458285
+        },
+        {
+          "budget": 0.002751316,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.0027474567006075304,
+          "frozen_score": 0.9000083339312084,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.8063337877183299,
+            "gpt-4-turbo": 0.1936662122816701
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.07811397530021306
+        },
+        {
+          "budget": 0.003092105,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.003087781708615896,
+          "frozen_score": 0.8998863527566896,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.713628095084073,
+            "gpt-4-turbo": 0.286371904915927
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.0903120927520898
+        },
+        {
+          "budget": 0.003432895,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.0034281077152627385,
+          "frozen_score": 0.8997643712242333,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.6209221304172897,
+            "gpt-4-turbo": 0.3790778695827103
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.10251024599772
+        },
+        {
+          "budget": 0.003773684,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.003768432723271104,
+          "frozen_score": 0.8996423900497146,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.5282164377830328,
+            "gpt-4-turbo": 0.47178356221696716
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.11470836344959674
+        },
+        {
+          "budget": 0.004114474,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.004108758729917947,
+          "frozen_score": 0.8995204085172582,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.4355104731162496,
+            "gpt-4-turbo": 0.5644895268837504
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.12690651669522696
+        },
+        {
+          "budget": 0.004455263,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.0044490837379263124,
+          "frozen_score": 0.8993984273427394,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.34280478048199264,
+            "gpt-4-turbo": 0.6571952195180073
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.1391046341471037
+        },
+        {
+          "budget": 0.004796053,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.004789409744573155,
+          "frozen_score": 0.8992764458102832,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.2500988158152094,
+            "gpt-4-turbo": 0.7499011841847906
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.1513027873927339
+        },
+        {
+          "budget": 0.005136842,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005129734752581521,
+          "frozen_score": 0.8991544646357644,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.1573931231809525,
+            "gpt-4-turbo": 0.8426068768190474
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.16350090484461063
+        },
+        {
+          "budget": 0.005477632,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005470060759228363,
+          "frozen_score": 0.8990324831033081,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.06468715851416922,
+            "gpt-4-turbo": 0.9353128414858308
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.17569905809024083
+        },
+        {
+          "budget": 0.005818421,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005707529,
+          "frozen_score": 0.8989473684210526,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18421052631579
+        },
+        {
+          "budget": 0.006159211,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005707529,
+          "frozen_score": 0.8989473684210526,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18421052631579
+        },
+        {
+          "budget": 0.0065,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005707529,
+          "frozen_score": 0.8989473684210526,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18421052631579
+        }
+      ],
+      "test_n": 3800
+    },
+    "catalogue": {
+      "summary": {
+        "rows": 20,
+        "unique": 5,
+        "comparable": 20,
+        "single_wins": 20,
+        "mixture_wins": 20,
+        "mixture_wins_over_one_point": 0,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 0,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 20,
+        "cascade_over_budget": 0
+      },
+      "unique_test_envelope": {
+        "comparable": 5,
+        "single_wins": 5,
+        "mixture_wins": 5,
+        "mixture_wins_over_one_point": 0,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 9e-05,
+          "cascade_test_cost": 7.378368947368421e-05,
+          "cascade_test_score": 0.8905263157894737,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -0.97368421052632,
+          "single_gap_pp": 0.76315789473684,
+          "hull_gap_pp": 0.6141083801560886,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.2920148057414187,
+            "gpt-4o-mini": 0.7079851942585813
+          },
+          "frozen_cost": 8.98713765824575e-05,
+          "frozen_score": 0.8850785408111287,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.009044093402701658,
+            "gpt-4o-mini": 0.9909559065972984
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.5447774978344976
+        },
+        {
+          "budget": 0.000365789,
+          "cascade_test_cost": 0.00032147,
+          "cascade_test_score": 0.8923684210526316,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -0.78947368421053,
+          "single_gap_pp": 0.73684210526316,
+          "hull_gap_pp": 0.24882326808226748,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.5619610852386093,
+            "gpt-4o-mini": 0.43803891476139073
+          },
+          "frozen_cost": 0.0003653289765364989,
+          "frozen_score": 0.8907895001137908,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.6666697100728871,
+            "gpt-4o-mini": 0.33333028992711294
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.15789209388407982
+        },
+        {
+          "budget": 0.000706579,
+          "cascade_test_cost": 0.000564678,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.6322379447871888,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.9610016760765053,
+            "claude-3-5-sonnet-20240620": 0.03899832392349465
+          },
+          "frozen_cost": 0.0007056545729458898,
+          "frozen_score": 0.89454635817776,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.8689535569804703,
+            "claude-3-5-sonnet-20240620": 0.13104644301952972
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.5716799716976906
+        },
+        {
+          "budget": 0.001047368,
+          "cascade_test_cost": 0.00083173,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.517522942914474,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.7866348732299829,
+            "claude-3-5-sonnet-20240620": 0.2133651267700171
+          },
+          "frozen_cost": 0.0010459409929619934,
+          "frozen_score": 0.8960080943680677,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.6467696560536962,
+            "claude-3-5-sonnet-20240620": 0.3532303439463038
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.4255063526669149
+        },
+        {
+          "budget": 0.001388158,
+          "cascade_test_cost": 0.00083173,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.517522942914474,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.7866348732299829,
+            "claude-3-5-sonnet-20240620": 0.2133651267700171
+          },
+          "frozen_cost": 0.0013862284115033429,
+          "frozen_score": 0.897469834847646,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.4245851031578124,
+            "claude-3-5-sonnet-20240620": 0.5754148968421876
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.27933230470909337
+        },
+        {
+          "budget": 0.001728947,
+          "cascade_test_cost": 0.00083173,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.517522942914474,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.7866348732299829,
+            "claude-3-5-sonnet-20240620": 0.2133651267700171
+          },
+          "frozen_cost": 0.0017265148315194466,
+          "frozen_score": 0.8989315710379537,
+          "frozen_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.2024012022310383,
+            "claude-3-5-sonnet-20240620": 0.7975987977689617
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.13315868567831765
+        },
+        {
+          "budget": 0.002069737,
+          "cascade_test_cost": 0.00083173,
+          "cascade_test_score": 0.9002631578947369,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.65789473684212,
+          "hull_gap_pp": 0.517522942914474,
+          "oracle_weights": {
+            "Meta-Llama-3-70B-Instruct-Turbo": 0.7866348732299829,
+            "claude-3-5-sonnet-20240620": 0.2133651267700171
+          },
+          "frozen_cost": 0.002066805685952322,
+          "frozen_score": 0.9002522966381834,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.9917454450193701,
+            "gpt-4-turbo": 0.008254554980629924
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.0010861256553461164
+        },
+        {
+          "budget": 0.002410526,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.0024071306939606875,
+          "frozen_score": 0.9001303154636646,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.8990397523851131,
+            "gpt-4-turbo": 0.10096024761488681
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.06591582205458285
+        },
+        {
+          "budget": 0.002751316,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.0027474567006075304,
+          "frozen_score": 0.9000083339312084,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.8063337877183299,
+            "gpt-4-turbo": 0.1936662122816701
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.07811397530021306
+        },
+        {
+          "budget": 0.003092105,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.003087781708615896,
+          "frozen_score": 0.8998863527566896,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.713628095084073,
+            "gpt-4-turbo": 0.286371904915927
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.0903120927520898
+        },
+        {
+          "budget": 0.003432895,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.0034281077152627385,
+          "frozen_score": 0.8997643712242333,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.6209221304172897,
+            "gpt-4-turbo": 0.3790778695827103
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.10251024599772
+        },
+        {
+          "budget": 0.003773684,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.003768432723271104,
+          "frozen_score": 0.8996423900497146,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.5282164377830328,
+            "gpt-4-turbo": 0.47178356221696716
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.11470836344959674
+        },
+        {
+          "budget": 0.004114474,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.004108758729917947,
+          "frozen_score": 0.8995204085172582,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.4355104731162496,
+            "gpt-4-turbo": 0.5644895268837504
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.12690651669522696
+        },
+        {
+          "budget": 0.004455263,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.0044490837379263124,
+          "frozen_score": 0.8993984273427394,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.34280478048199264,
+            "gpt-4-turbo": 0.6571952195180073
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.1391046341471037
+        },
+        {
+          "budget": 0.004796053,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.004789409744573155,
+          "frozen_score": 0.8992764458102832,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.2500988158152094,
+            "gpt-4-turbo": 0.7499011841847906
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.1513027873927339
+        },
+        {
+          "budget": 0.005136842,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005129734752581521,
+          "frozen_score": 0.8991544646357644,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.1573931231809525,
+            "gpt-4-turbo": 0.8426068768190474
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.16350090484461063
+        },
+        {
+          "budget": 0.005477632,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005470060759228363,
+          "frozen_score": 0.8990324831033081,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.06468715851416922,
+            "gpt-4-turbo": 0.9353128414858308
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.17569905809024083
+        },
+        {
+          "budget": 0.005818421,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005707529,
+          "frozen_score": 0.8989473684210526,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18421052631579
+        },
+        {
+          "budget": 0.006159211,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005707529,
+          "frozen_score": 0.8989473684210526,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18421052631579
+        },
+        {
+          "budget": 0.0065,
+          "cascade_test_cost": 0.002273257,
+          "cascade_test_score": 0.9007894736842105,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.05263157894736,
+          "single_gap_pp": 0.05263157894736,
+          "hull_gap_pp": 0.05263157894736,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_cost": 0.005707529,
+          "frozen_score": 0.8989473684210526,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18421052631579
+        }
+      ],
+      "test_n": 3800
+    }
+  },
+  "COQA": {
+    "native": {
+      "summary": {
+        "rows": 20,
+        "unique": 4,
+        "comparable": 20,
+        "single_wins": 19,
+        "mixture_wins": 19,
+        "mixture_wins_over_one_point": 19,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 1,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 20,
+        "cascade_over_budget": 0
+      },
+      "unique_test_envelope": {
+        "comparable": 4,
+        "single_wins": 3,
+        "mixture_wins": 3,
+        "mixture_wins_over_one_point": 3,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 7.4e-05,
+          "cascade_test_cost": 7.384493172137309e-05,
+          "cascade_test_score": 0.33876221498371334,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.0,
+          "hull_gap_pp": 0.0,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": true,
+          "frozen_gap_pp": 0.0
+        },
+        {
+          "budget": 0.000912211,
+          "cascade_test_cost": 0.0007176,
+          "cascade_test_score": 0.3693309947381609,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 3.056877975444756,
+          "single_gap_pp": 3.056877975444756,
+          "hull_gap_pp": 3.056877975444756,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 3.056877975444756
+        },
+        {
+          "budget": 0.001750421,
+          "cascade_test_cost": 0.001700251,
+          "cascade_test_score": 0.38160861939363566,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.284640440992232,
+          "single_gap_pp": 4.284640440992232,
+          "hull_gap_pp": 4.284640440992232,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.284640440992232
+        },
+        {
+          "budget": 0.002588632,
+          "cascade_test_cost": 0.001700251,
+          "cascade_test_score": 0.38160861939363566,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.284640440992232,
+          "single_gap_pp": 4.284640440992232,
+          "hull_gap_pp": 4.284640440992232,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.284640440992232
+        },
+        {
+          "budget": 0.003426842,
+          "cascade_test_cost": 0.001700251,
+          "cascade_test_score": 0.38160861939363566,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.284640440992232,
+          "single_gap_pp": 4.284640440992232,
+          "hull_gap_pp": 4.284640440992232,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.284640440992232
+        },
+        {
+          "budget": 0.004265053,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.005103263,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.005941474,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.006779684,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.007617895,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.008456105,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.009294316,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.010132526315789472,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.010970737,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.011808947,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.012647157894736841,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.013485368,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.014323578947368418,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.015161789473684208,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.016,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        }
+      ],
+      "test_n": 3991
+    },
+    "catalogue": {
+      "summary": {
+        "rows": 20,
+        "unique": 4,
+        "comparable": 20,
+        "single_wins": 19,
+        "mixture_wins": 19,
+        "mixture_wins_over_one_point": 19,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 1,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 20,
+        "cascade_over_budget": 0
+      },
+      "unique_test_envelope": {
+        "comparable": 4,
+        "single_wins": 3,
+        "mixture_wins": 3,
+        "mixture_wins_over_one_point": 3,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 7.4e-05,
+          "cascade_test_cost": 7.384493172137309e-05,
+          "cascade_test_score": 0.33876221498371334,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.0,
+          "hull_gap_pp": 0.0,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": true,
+          "frozen_gap_pp": 0.0
+        },
+        {
+          "budget": 0.000912211,
+          "cascade_test_cost": 0.0007176,
+          "cascade_test_score": 0.3693309947381609,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 3.056877975444756,
+          "single_gap_pp": 3.056877975444756,
+          "hull_gap_pp": 3.056877975444756,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 3.056877975444756
+        },
+        {
+          "budget": 0.001750421,
+          "cascade_test_cost": 0.001700251,
+          "cascade_test_score": 0.38160861939363566,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.284640440992232,
+          "single_gap_pp": 4.284640440992232,
+          "hull_gap_pp": 4.284640440992232,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.284640440992232
+        },
+        {
+          "budget": 0.002588632,
+          "cascade_test_cost": 0.001700251,
+          "cascade_test_score": 0.38160861939363566,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.284640440992232,
+          "single_gap_pp": 4.284640440992232,
+          "hull_gap_pp": 4.284640440992232,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.284640440992232
+        },
+        {
+          "budget": 0.003426842,
+          "cascade_test_cost": 0.001700251,
+          "cascade_test_score": 0.38160861939363566,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.284640440992232,
+          "single_gap_pp": 4.284640440992232,
+          "hull_gap_pp": 4.284640440992232,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.284640440992232
+        },
+        {
+          "budget": 0.004265053,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.005103263,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.005941474,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.006779684,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.007617895,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.008456105,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.009294316,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.010132526315789472,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.010970737,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.011808947,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.012647157894736841,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.013485368,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.014323578947368418,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.015161789473684208,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        },
+        {
+          "budget": 0.016,
+          "cascade_test_cost": 0.003916803,
+          "cascade_test_score": 0.3838636933099474,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 4.510147832623406,
+          "single_gap_pp": 4.510147832623406,
+          "hull_gap_pp": 4.510147832623406,
+          "oracle_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_cost": 7.336982585818091e-05,
+          "frozen_score": 0.33876221498371334,
+          "frozen_weights": {
+            "gemini-1.5-flash": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.510147832623406
+        }
+      ],
+      "test_n": 3991
+    }
+  },
+  "HEADLINES": {
+    "native": {
+      "summary": {
+        "rows": 20,
+        "unique": 6,
+        "comparable": 20,
+        "single_wins": 20,
+        "mixture_wins": 20,
+        "mixture_wins_over_one_point": 19,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 0,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 18,
+        "cascade_over_budget": 0
+      },
+      "unique_test_envelope": {
+        "comparable": 6,
+        "single_wins": 6,
+        "mixture_wins": 6,
+        "mixture_wins_over_one_point": 5,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 1.05e-05,
+          "cascade_test_cost": 9.787287999999999e-06,
+          "cascade_test_score": 0.8522,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -0.36,
+          "single_gap_pp": 1.0,
+          "hull_gap_pp": 0.9254263249411444,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.12857530182561305,
+            "gemini-1.5-flash-8b": 0.871424698174387
+          },
+          "frozen_cost": 1.050671164368619e-05,
+          "frozen_score": 0.8422074787938039,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.9994500886908935,
+            "gpt-4-turbo": 0.000549911309106576
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.9992521206196151
+        },
+        {
+          "budget": 0.000226726,
+          "cascade_test_cost": 0.000192122,
+          "cascade_test_score": 0.8698,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.4,
+          "single_gap_pp": 2.18,
+          "hull_gap_pp": 2.138841996794791,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.947233329224091,
+            "gpt-4-turbo": 0.05276667077590901
+          },
+          "frozen_cost": 0.0002267281716032817,
+          "frozen_score": 0.8430927053099491,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.9343599036802169,
+            "gpt-4-turbo": 0.06564009631978304
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.670729469005095
+        },
+        {
+          "budget": 0.000436353,
+          "cascade_test_cost": 0.00038363,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.51375766549883,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8894329044856795,
+            "gpt-4-turbo": 0.11056709551432058
+          },
+          "frozen_cost": 0.00043635077012034316,
+          "frozen_score": 0.8439509156033457,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.8712562056363504,
+            "gpt-4-turbo": 0.12874379436364952
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 3.004908439665437
+        },
+        {
+          "budget": 0.000645979,
+          "cascade_test_cost": 0.000552663,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.473964342128787,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8384158232420347,
+            "gpt-4-turbo": 0.16158417675796533
+          },
+          "frozen_cost": 0.0006459723686584013,
+          "frozen_score": 0.8448091218027548,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.8081528086209682,
+            "gpt-4-turbo": 0.1918471913790319
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.9190878197245165
+        },
+        {
+          "budget": 0.000855605,
+          "cascade_test_cost": 0.000552663,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.473964342128787,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8384158232420347,
+            "gpt-4-turbo": 0.16158417675796533
+          },
+          "frozen_cost": 0.0008555939671964595,
+          "frozen_score": 0.845667328002164,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.7450494116055858,
+            "gpt-4-turbo": 0.25495058839441426
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.8332671997835965
+        },
+        {
+          "budget": 0.001065232,
+          "cascade_test_cost": 0.000997667,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.3692026206130916,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.7041059238629377,
+            "gpt-4-turbo": 0.2958940761370623
+          },
+          "frozen_cost": 0.0010652165657135209,
+          "frozen_score": 0.8465255382955607,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.6819457135617193,
+            "gpt-4-turbo": 0.3180542864382807
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.747446170443938
+        },
+        {
+          "budget": 0.001274858,
+          "cascade_test_cost": 0.000997667,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.3692026206130916,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.7041059238629377,
+            "gpt-4-turbo": 0.2958940761370623
+          },
+          "frozen_cost": 0.001274838164251579,
+          "frozen_score": 0.8473837444949698,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.6188423165463369,
+            "gpt-4-turbo": 0.3811576834536631
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.661625550503018
+        },
+        {
+          "budget": 0.001484484,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.0014844597627896373,
+          "frozen_score": 0.848241950694379,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.5557389195309546,
+            "gpt-4-turbo": 0.44426108046904544
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.6358049305620983
+        },
+        {
+          "budget": 0.001694111,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.0016940823613066987,
+          "frozen_score": 0.8491001609877756,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.4926352214870881,
+            "gpt-4-turbo": 0.507364778512912
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.54998390122244
+        },
+        {
+          "budget": 0.001903737,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.001903703959844757,
+          "frozen_score": 0.8499583671871848,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.42953182447170574,
+            "gpt-4-turbo": 0.5704681755282943
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.46416328128152
+        },
+        {
+          "budget": 0.002113363,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.002113325558382815,
+          "frozen_score": 0.850816573386594,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.36642842745632337,
+            "gpt-4-turbo": 0.6335715725436766
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.3783426613406
+        },
+        {
+          "budget": 0.002322989,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.002322947156920873,
+          "frozen_score": 0.8516747795860032,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.30332503044094106,
+            "gpt-4-turbo": 0.6966749695590589
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.2925220413996796
+        },
+        {
+          "budget": 0.002532616,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.0025325697554379346,
+          "frozen_score": 0.8525329898793997,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.24022133239707455,
+            "gpt-4-turbo": 0.7597786676029255
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.2067010120600212
+        },
+        {
+          "budget": 0.002742242,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.0027421913539759928,
+          "frozen_score": 0.853391196078809,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.17711793538169218,
+            "gpt-4-turbo": 0.8228820646183078
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.1208803921191013
+        },
+        {
+          "budget": 0.002951868,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.002951812952514051,
+          "frozen_score": 0.8542494022782182,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.11401453836630984,
+            "gpt-4-turbo": 0.8859854616336902
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.0350597721781813
+        },
+        {
+          "budget": 0.003161495,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.0031614355510311124,
+          "frozen_score": 0.8551076125716147,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.05091084032244335,
+            "gpt-4-turbo": 0.9490891596775567
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.949238742838523
+        },
+        {
+          "budget": 0.003371121,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.003330555,
+          "frozen_score": 0.8558,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.88
+        },
+        {
+          "budget": 0.003580747,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.003330555,
+          "frozen_score": 0.8558,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.88
+        },
+        {
+          "budget": 0.003790374,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.003330555,
+          "frozen_score": 0.8558,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.88
+        },
+        {
+          "budget": 0.004,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.003330555,
+          "frozen_score": 0.8558,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.88
+        }
+      ],
+      "test_n": 5000
+    },
+    "catalogue": {
+      "summary": {
+        "rows": 20,
+        "unique": 6,
+        "comparable": 20,
+        "single_wins": 20,
+        "mixture_wins": 20,
+        "mixture_wins_over_one_point": 19,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 0,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 19,
+        "cascade_over_budget": 0
+      },
+      "unique_test_envelope": {
+        "comparable": 6,
+        "single_wins": 6,
+        "mixture_wins": 6,
+        "mixture_wins_over_one_point": 5,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 1.05e-05,
+          "cascade_test_cost": 9.787287999999999e-06,
+          "cascade_test_score": 0.8522,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -0.36,
+          "single_gap_pp": 1.0,
+          "hull_gap_pp": 0.9254263249411444,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.12857530182561305,
+            "gemini-1.5-flash-8b": 0.871424698174387
+          },
+          "frozen_cost": 1.0505415333051385e-05,
+          "frozen_score": 0.8426180164939734,
+          "frozen_weights": {
+            "gemini-1.5-flash-8b": 0.9253541975047579,
+            "gpt-4o-mini": 0.07464580249524211
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.9581983506026645
+        },
+        {
+          "budget": 0.000226726,
+          "cascade_test_cost": 0.000192122,
+          "cascade_test_score": 0.8698,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.4,
+          "single_gap_pp": 2.18,
+          "hull_gap_pp": 2.138841996794791,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.947233329224091,
+            "gpt-4-turbo": 0.05276667077590901
+          },
+          "frozen_cost": 0.00022671182493870303,
+          "frozen_score": 0.8482696450814657,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.05870563518321701,
+            "gpt-4o-mini": 0.941294364816783
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.1530354918534265
+        },
+        {
+          "budget": 0.000436353,
+          "cascade_test_cost": 0.00038363,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.51375766549883,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8894329044856795,
+            "gpt-4-turbo": 0.11056709551432058
+          },
+          "frozen_cost": 0.00043633552745753245,
+          "frozen_score": 0.8487782213175292,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.12227766469115342,
+            "gpt-4o-mini": 0.8777223353088466
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.5221778682470775
+        },
+        {
+          "budget": 0.000645979,
+          "cascade_test_cost": 0.000552663,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.473964342128787,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8384158232420347,
+            "gpt-4-turbo": 0.16158417675796533
+          },
+          "frozen_cost": 0.0006459582299920921,
+          "frozen_score": 0.849286795127492,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.18584939093648764,
+            "gpt-4o-mini": 0.8141506090635123
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.47132048725081
+        },
+        {
+          "budget": 0.000855605,
+          "cascade_test_cost": 0.000552663,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.473964342128787,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8384158232420347,
+            "gpt-4-turbo": 0.16158417675796533
+          },
+          "frozen_cost": 0.0008555809325266518,
+          "frozen_score": 0.8497953689374546,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.2494211171818219,
+            "gpt-4o-mini": 0.7505788828181781
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.4204631062545423
+        },
+        {
+          "budget": 0.001065232,
+          "cascade_test_cost": 0.000997667,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.3692026206130916,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.7041059238629377,
+            "gpt-4-turbo": 0.2958940761370623
+          },
+          "frozen_cost": 0.0010652046350454812,
+          "frozen_score": 0.850303945173518,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.3129931466897583,
+            "gpt-4o-mini": 0.6870068533102417
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.3696054826481934
+        },
+        {
+          "budget": 0.001274858,
+          "cascade_test_cost": 0.000997667,
+          "cascade_test_score": 0.874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.82,
+          "single_gap_pp": 2.6,
+          "hull_gap_pp": 2.3692026206130916,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.7041059238629377,
+            "gpt-4-turbo": 0.2958940761370623
+          },
+          "frozen_cost": 0.0012748273375800408,
+          "frozen_score": 0.8508125189834808,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.3765648729350925,
+            "gpt-4o-mini": 0.6234351270649074
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.318748101651926
+        },
+        {
+          "budget": 0.001484484,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.0014844500401146004,
+          "frozen_score": 0.8513210927934434,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.44013659918042675,
+            "gpt-4o-mini": 0.5598634008195732
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.3278907206556587
+        },
+        {
+          "budget": 0.001694111,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.00169407374263343,
+          "frozen_score": 0.8518296690295069,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.5037086286883632,
+            "gpt-4o-mini": 0.4962913713116368
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.2770330970493093
+        },
+        {
+          "budget": 0.001903737,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.0019036964451679896,
+          "frozen_score": 0.8523382428394696,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.5672803549336974,
+            "gpt-4o-mini": 0.4327196450663026
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.226175716053042
+        },
+        {
+          "budget": 0.002113363,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.002113319147702549,
+          "frozen_score": 0.8528468166494323,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.6308520811790316,
+            "gpt-4o-mini": 0.36914791882096837
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.1753183350567746
+        },
+        {
+          "budget": 0.002322989,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.002322941850237109,
+          "frozen_score": 0.8533553904593949,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.6944238074243658,
+            "gpt-4o-mini": 0.3055761925756342
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.1244609540605075
+        },
+        {
+          "budget": 0.002532616,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.0025325655527559383,
+          "frozen_score": 0.8538639666954584,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.7579958369323022,
+            "gpt-4o-mini": 0.24200416306769773
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.073603330454158
+        },
+        {
+          "budget": 0.002742242,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.002742188255290498,
+          "frozen_score": 0.8543725405054211,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.8215675631776365,
+            "gpt-4o-mini": 0.1784324368223635
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.022745949457891
+        },
+        {
+          "budget": 0.002951868,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.0029518109578250576,
+          "frozen_score": 0.8548811143153837,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.8851392894229707,
+            "gpt-4o-mini": 0.11486071057702928
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.9718885684616234
+        },
+        {
+          "budget": 0.003161495,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.003161434660343887,
+          "frozen_score": 0.8553896905514473,
+          "frozen_weights": {
+            "gpt-4-turbo": 0.9487113189309071,
+            "gpt-4o-mini": 0.051288681069092866
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.9210309448552743
+        },
+        {
+          "budget": 0.003371121,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.003330555,
+          "frozen_score": 0.8558,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.88
+        },
+        {
+          "budget": 0.003580747,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.003330555,
+          "frozen_score": 0.8558,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.88
+        },
+        {
+          "budget": 0.003790374,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.003330555,
+          "frozen_score": 0.8558,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.88
+        },
+        {
+          "budget": 0.004,
+          "cascade_test_cost": 0.00135881,
+          "cascade_test_score": 0.8746,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 1.88,
+          "single_gap_pp": 2.66,
+          "hull_gap_pp": 2.344183244622442,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.5951067238749259,
+            "gpt-4-turbo": 0.4048932761250741
+          },
+          "frozen_cost": 0.003330555,
+          "frozen_score": 0.8558,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.88
+        }
+      ],
+      "test_n": 5000
+    }
+  },
+  "OVERRULING": {
+    "native": {
+      "summary": {
+        "rows": 20,
+        "unique": 2,
+        "comparable": 20,
+        "single_wins": 20,
+        "mixture_wins": 20,
+        "mixture_wins_over_one_point": 0,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 0,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 13,
+        "cascade_over_budget": 3
+      },
+      "unique_test_envelope": {
+        "comparable": 2,
+        "single_wins": 2,
+        "mixture_wins": 2,
+        "mixture_wins_over_one_point": 0,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 4.4e-05,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": false,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 4.417198095347573e-05,
+          "frozen_score": 0.9574081976847414,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.0004267497603541184,
+            "gpt-4o-mini": 0.9995732502396458
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.1851061574517911
+        },
+        {
+          "budget": 0.000204842,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": false,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 0.00020559572203773587,
+          "frozen_score": 0.9577020931459055,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.15913029878896806,
+            "gpt-4o-mini": 0.840869701211032
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.15571661133538034
+        },
+        {
+          "budget": 0.000365684,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": false,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 0.000367019463121996,
+          "frozen_score": 0.9579959886070696,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.317833847817582,
+            "gpt-4o-mini": 0.682166152182418
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.12632706521896958
+        },
+        {
+          "budget": 0.000526526,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 0.0005284432042062561,
+          "frozen_score": 0.9582898840682337,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.47653739684619595,
+            "gpt-4o-mini": 0.5234626031538041
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.09693751910255882
+        },
+        {
+          "budget": 0.000687368,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 0.0006898669452905162,
+          "frozen_score": 0.9585837795293978,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.6352409458748098,
+            "gpt-4o-mini": 0.3647590541251901
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.06754797298614808
+        },
+        {
+          "budget": 0.000848211,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.0008512916899916245,
+          "frozen_score": 0.9588776768177928,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.793945481608072,
+            "gpt-4o-mini": 0.20605451839192795
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.22334342933183432
+        },
+        {
+          "budget": 0.001009053,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.0010127154310758846,
+          "frozen_score": 0.9591715722789569,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.9526490306366859,
+            "gpt-4o-mini": 0.047350969363314024
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.19395388321542356
+        },
+        {
+          "budget": 0.001169895,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001330737,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001491579,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001652421,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001813263,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001974105,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002134947,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002295789,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002456632,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002617474,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002778316,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002939158,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.0031,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        }
+      ],
+      "test_n": 1080
+    },
+    "catalogue": {
+      "summary": {
+        "rows": 20,
+        "unique": 2,
+        "comparable": 20,
+        "single_wins": 20,
+        "mixture_wins": 20,
+        "mixture_wins_over_one_point": 0,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 0,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 13,
+        "cascade_over_budget": 3
+      },
+      "unique_test_envelope": {
+        "comparable": 2,
+        "single_wins": 2,
+        "mixture_wins": 2,
+        "mixture_wins_over_one_point": 0,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 4.4e-05,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": false,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 4.417198095347573e-05,
+          "frozen_score": 0.9574081976847414,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.0004267497603541184,
+            "gpt-4o-mini": 0.9995732502396458
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.1851061574517911
+        },
+        {
+          "budget": 0.000204842,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": false,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 0.00020559572203773587,
+          "frozen_score": 0.9577020931459055,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.15913029878896806,
+            "gpt-4o-mini": 0.840869701211032
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.15571661133538034
+        },
+        {
+          "budget": 0.000365684,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": false,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 0.000367019463121996,
+          "frozen_score": 0.9579959886070696,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.317833847817582,
+            "gpt-4o-mini": 0.682166152182418
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.12632706521896958
+        },
+        {
+          "budget": 0.000526526,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 0.0005284432042062561,
+          "frozen_score": 0.9582898840682337,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.47653739684619595,
+            "gpt-4o-mini": 0.5234626031538041
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.09693751910255882
+        },
+        {
+          "budget": 0.000687368,
+          "cascade_test_cost": 0.000453326,
+          "cascade_test_score": 0.9592592592592593,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.0,
+          "single_gap_pp": 0.18518518518519,
+          "hull_gap_pp": 0.11061370156696629,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.40268601153839756,
+            "gpt-4o-mini": 0.5973139884616024
+          },
+          "frozen_cost": 0.0006898669452905162,
+          "frozen_score": 0.9585837795293978,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.6352409458748098,
+            "gpt-4o-mini": 0.3647590541251901
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.06754797298614808
+        },
+        {
+          "budget": 0.000848211,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.0008512916899916245,
+          "frozen_score": 0.9588776768177928,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.793945481608072,
+            "gpt-4o-mini": 0.20605451839192795
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.22334342933183432
+        },
+        {
+          "budget": 0.001009053,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.0010127154310758846,
+          "frozen_score": 0.9591715722789569,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 0.9526490306366859,
+            "gpt-4o-mini": 0.047350969363314024
+          },
+          "frozen_within_budget": false,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.19395388321542356
+        },
+        {
+          "budget": 0.001169895,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001330737,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001491579,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001652421,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001813263,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.001974105,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002134947,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002295789,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002456632,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002617474,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002778316,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.002939158,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        },
+        {
+          "budget": 0.0031,
+          "cascade_test_cost": 0.000797981,
+          "cascade_test_score": 0.9611111111111111,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.18518518518518,
+          "single_gap_pp": 0.37037037037037,
+          "hull_gap_pp": 0.23304941787777378,
+          "oracle_weights": {
+            "claude-3-5-sonnet-20240620": 0.7415331434600003,
+            "gpt-4o-mini": 0.2584668565399997
+          },
+          "frozen_cost": 0.001060878,
+          "frozen_score": 0.9592592592592593,
+          "frozen_weights": {
+            "claude-3-5-sonnet-20240620": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.18518518518518
+        }
+      ],
+      "test_n": 1080
+    }
+  },
+  "SCIQ": {
+    "native": {
+      "summary": {
+        "rows": 20,
+        "unique": 5,
+        "comparable": 20,
+        "single_wins": 20,
+        "mixture_wins": 20,
+        "mixture_wins_over_one_point": 20,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 0,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 20,
+        "cascade_over_budget": 0
+      },
+      "unique_test_envelope": {
+        "comparable": 5,
+        "single_wins": 5,
+        "mixture_wins": 5,
+        "mixture_wins_over_one_point": 5,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 0.00025,
+          "cascade_test_cost": 0.000234351,
+          "cascade_test_score": 0.7562654184980305,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -2.22925537574928,
+          "single_gap_pp": 2.60033873283096,
+          "hull_gap_pp": 2.5542074744166583,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.9904482121318756,
+            "gpt-4-turbo": 0.009551787868124348
+          },
+          "frozen_cost": 0.0002497653936577234,
+          "frozen_score": 0.7307693295695448,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.9894960448348523,
+            "gpt-4-turbo": 0.010503955165147688
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.5496088928485716
+        },
+        {
+          "budget": 0.001027895,
+          "cascade_test_cost": 0.000789914,
+          "cascade_test_score": 0.7696523377290632,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -0.89056345264601,
+          "single_gap_pp": 3.93903065593423,
+          "hull_gap_pp": 3.727158089205095,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.9561303575485313,
+            "gpt-4-turbo": 0.04386964245146874
+          },
+          "frozen_cost": 0.0010269278855679334,
+          "frozen_score": 0.7330878412087722,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.941489699226876,
+            "gpt-4-turbo": 0.058510300773124
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 3.6564496520290923
+        },
+        {
+          "budget": 0.001970789,
+          "cascade_test_cost": 0.001884556,
+          "cascade_test_score": 0.7869498201746874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.83918479191641,
+          "single_gap_pp": 5.66877890049665,
+          "hull_gap_pp": 5.130341394748239,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8885128866643628,
+            "gpt-4-turbo": 0.11148711333563717
+          },
+          "frozen_cost": 0.001968934005477671,
+          "frozen_score": 0.7358981314324629,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.8833007466874109,
+            "gpt-4-turbo": 0.11669925331258911
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 5.105168874222456
+        },
+        {
+          "budget": 0.002913684,
+          "cascade_test_cost": 0.002801555,
+          "cascade_test_score": 0.7881486555917109,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.95906833361876,
+          "single_gap_pp": 5.788662442199,
+          "hull_gap_pp": 4.976656297100248,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8318686566939144,
+            "gpt-4-turbo": 0.16813134330608556
+          },
+          "frozen_cost": 0.0029109411244457547,
+          "frozen_score": 0.7387084246366478,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.8251117324348025,
+            "gpt-4-turbo": 0.1748882675651975
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.944023095506317
+        },
+        {
+          "budget": 0.003856579,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.0038529482434138383,
+          "frozen_score": 0.7415187178408326,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.766922718182194,
+            "gpt-4-turbo": 0.23307728181780593
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.697246215574218
+        },
+        {
+          "budget": 0.004799474,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.004794955362381921,
+          "frozen_score": 0.7443290110450175,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.7087337039295857,
+            "gpt-4-turbo": 0.2912662960704144
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.416216895155729
+        },
+        {
+          "budget": 0.005742368,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.005736961482291659,
+          "frozen_score": 0.7471393012687081,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.6505447513901206,
+            "gpt-4-turbo": 0.3494552486098795
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 4.135187872786673
+        },
+        {
+          "budget": 0.006685263,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.006678968601259743,
+          "frozen_score": 0.749949594472893,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.5923557371375121,
+            "gpt-4-turbo": 0.4076442628624879
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 3.8541585523681836
+        },
+        {
+          "budget": 0.007628158,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.0076209757202278265,
+          "frozen_score": 0.7527598876770778,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.5341667228849037,
+            "gpt-4-turbo": 0.4658332771150963
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 3.573129231949695
+        },
+        {
+          "budget": 0.008571053,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.008562982839195911,
+          "frozen_score": 0.7555701808812627,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.47597770863229527,
+            "gpt-4-turbo": 0.5240222913677047
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 3.2920999115312055
+        },
+        {
+          "budget": 0.009513947,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.009504988959105648,
+          "frozen_score": 0.7583804711049533,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.41778875609283017,
+            "gpt-4-turbo": 0.5822112439071698
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 3.0110708891621494
+        },
+        {
+          "budget": 0.010456842105263158,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.010446996183237769,
+          "frozen_score": 0.7611907646228745,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.3595997353441014,
+            "gpt-4-turbo": 0.6404002646558986
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.7300415373700355
+        },
+        {
+          "budget": 0.011399736842105263,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.011389003039295761,
+          "frozen_score": 0.7640010570427187,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.30141073733179385,
+            "gpt-4-turbo": 0.6985892626682061
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.4490122953856077
+        },
+        {
+          "budget": 0.012342631578947367,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.012331009895353752,
+          "frozen_score": 0.766811349462563,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.2432217393194864,
+            "gpt-4-turbo": 0.7567782606805136
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.1679830534011804
+        },
+        {
+          "budget": 0.013285526315789473,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.013273016751411746,
+          "frozen_score": 0.7696216418824072,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.1850327413071788,
+            "gpt-4-turbo": 0.8149672586928212
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.8869538114167523
+        },
+        {
+          "budget": 0.014228421,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.01421502355488772,
+          "frozen_score": 0.7724319341453835,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.1268437465429314,
+            "gpt-4-turbo": 0.8731562534570686
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.6059245851191366
+        },
+        {
+          "budget": 0.015171315789473684,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.01515703046352773,
+          "frozen_score": 0.7752422267220959,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.06865474528256368,
+            "gpt-4-turbo": 0.9313452547174363
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.3248953274478967
+        },
+        {
+          "budget": 0.016114210526315786,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.01609903731958572,
+          "frozen_score": 0.7780525191419401,
+          "frozen_weights": {
+            "gemini-1.5-flash": 0.010465747270256346,
+            "gpt-4-turbo": 0.9895342527297436
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.0438660854634698
+        },
+        {
+          "budget": 0.017057105263157894,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.016268464634355197,
+          "frozen_score": 0.7785579722555233,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.99332077410515
+        },
+        {
+          "budget": 0.018,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 5.82291488268539,
+          "hull_gap_pp": 4.909532800528605,
+          "oracle_weights": {
+            "gemini-1.5-flash": 0.8108780858966856,
+            "gpt-4-turbo": 0.1891219141033144
+          },
+          "frozen_cost": 0.016268464634355197,
+          "frozen_score": 0.7785579722555233,
+          "frozen_weights": {
+            "gpt-4-turbo": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.99332077410515
+        }
+      ],
+      "test_n": 5839
+    },
+    "catalogue": {
+      "summary": {
+        "rows": 20,
+        "unique": 5,
+        "comparable": 20,
+        "single_wins": 20,
+        "mixture_wins": 20,
+        "mixture_wins_over_one_point": 19,
+        "erased": 0,
+        "frozen_available": 20,
+        "frozen_dominates": 0,
+        "frozen_dominates_by_one": 0,
+        "both_feasible": 20,
+        "cascade_over_budget": 0
+      },
+      "unique_test_envelope": {
+        "comparable": 5,
+        "single_wins": 5,
+        "mixture_wins": 5,
+        "mixture_wins_over_one_point": 4,
+        "erased": 0
+      },
+      "rows": [
+        {
+          "budget": 0.00025,
+          "cascade_test_cost": 0.000234351,
+          "cascade_test_score": 0.7562654184980305,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -2.22925537574928,
+          "single_gap_pp": 0.0485319165953,
+          "hull_gap_pp": 0.022510854175181193,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.01368801652892562,
+            "gpt-4o-mini": 0.9863119834710744
+          },
+          "frozen_cost": 0.0002498075893851166,
+          "frozen_score": 0.7545341945967138,
+          "frozen_weights": {
+            "gemma-2-9b-it": 0.5596029038298745,
+            "gpt-4o-mini": 0.44039709617012546
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 0.17312239013167074
+        },
+        {
+          "budget": 0.001027895,
+          "cascade_test_cost": 0.000789914,
+          "cascade_test_score": 0.7696523377290632,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": -0.89056345264601,
+          "single_gap_pp": 1.38722383969857,
+          "hull_gap_pp": 1.1597543853536376,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.11965713008288878,
+            "gpt-4o-mini": 0.8803428699171112
+          },
+          "frozen_cost": 0.0010270857400825452,
+          "frozen_score": 0.7565121178324945,
+          "frozen_weights": {
+            "gemma-2-9b-it": 0.8606914836779398,
+            "gpt-4o-2024-05-13": 0.13930851632206015
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.3140219896568692
+        },
+        {
+          "budget": 0.001970789,
+          "cascade_test_cost": 0.001884556,
+          "cascade_test_score": 0.7869498201746874,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.83918479191641,
+          "single_gap_pp": 3.11697208426099,
+          "hull_gap_pp": 2.4925829814992957,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.3284511685608604,
+            "gpt-4o-mini": 0.6715488314391396
+          },
+          "frozen_cost": 0.0019692029813330285,
+          "frozen_score": 0.7604452717096676,
+          "frozen_weights": {
+            "gemma-2-9b-it": 0.6754843426391233,
+            "gpt-4o-2024-05-13": 0.32451565736087673
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.6504548465019875
+        },
+        {
+          "budget": 0.002913684,
+          "cascade_test_cost": 0.002801555,
+          "cascade_test_score": 0.7881486555917109,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.95906833361876,
+          "single_gap_pp": 3.23685562596334,
+          "hull_gap_pp": 2.2799606256766807,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5033612528534981,
+            "gpt-4o-mini": 0.49663874714650197
+          },
+          "frozen_cost": 0.002911321221759709,
+          "frozen_score": 0.7643784297582044,
+          "frozen_weights": {
+            "gemma-2-9b-it": 0.4902770051761689,
+            "gpt-4o-2024-05-13": 0.5097229948238311
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.3770225833506573
+        },
+        {
+          "budget": 0.003856579,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.003853439462186389,
+          "frozen_score": 0.7683115878067411,
+          "frozen_weights": {
+            "gemma-2-9b-it": 0.3050696677132145,
+            "gpt-4o-2024-05-13": 0.6949303322867856
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 2.0179592189833677
+        },
+        {
+          "budget": 0.004799474,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.00479555770261307,
+          "frozen_score": 0.7722447458552779,
+          "frozen_weights": {
+            "gemma-2-9b-it": 0.11986233025026007,
+            "gpt-4o-2024-05-13": 0.88013766974974
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.624643414129688
+        },
+        {
+          "budget": 0.005742368,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.006685263,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.007628158,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.008571053,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.009513947,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.010456842105263158,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.011399736842105263,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.012342631578947367,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.013285526315789473,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.014228421,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.015171315789473684,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.016114210526315786,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.017057105263157894,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        },
+        {
+          "budget": 0.018,
+          "cascade_test_cost": 0.003141366,
+          "cascade_test_score": 0.7884911799965748,
+          "cascade_within_budget": true,
+          "gap_above_best_at_any_spend_pp": 0.99332077410515,
+          "single_gap_pp": 3.27110806644973,
+          "hull_gap_pp": 2.1909968341455266,
+          "oracle_weights": {
+            "gpt-4o-2024-05-13": 0.5681774311193036,
+            "gpt-4o-mini": 0.4318225688806963
+          },
+          "frozen_cost": 0.005405277,
+          "frozen_score": 0.7747902038020209,
+          "frozen_weights": {
+            "gpt-4o-2024-05-13": 1.0
+          },
+          "frozen_within_budget": true,
+          "frozen_dominates": false,
+          "frozen_gap_pp": 1.37009761945539
+        }
+      ],
+      "test_n": 5839
+    }
+  }
+}

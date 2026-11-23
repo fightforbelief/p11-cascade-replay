@@ -8,3 +8,5 @@ The numeric records are projections of two public archives. Each row retains a q
 The archive-specific licenses apply separately. The model and question identifiers refer to the original providers. Each digest for the projected CSVs appears in design.json. The projection script reproduces both files byte for byte from the specified original releases.
 
 The supplemental aime_lengths.csv contains Unicode character counts of the released answer strings for the same MathArena records and follows the same CC BY-NC-SA 4.0 terms. repair_aime.py records its SHA-256 and reproduces the projection.
+
+The external policy audits use author-released summary tables with their original licenses and version identifiers. [FrugalGPT](frugalgpt/NOTICE.md) · [AutoMix](automix/NOTICE.md)

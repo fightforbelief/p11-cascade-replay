@@ -1,0 +1,212 @@
+{
+  "nano-super": {
+    "product": [
+      0.16373263888888892,
+      1141.727324791667
+    ],
+    "bootstrap_accuracy": [
+      -0.16958,
+      0.16086,
+      0.5016
+    ],
+    "bootstrap_fallback_tokens": [
+      926.09149,
+      1138.33644,
+      1364.84906
+    ],
+    "leave_one_out_accuracy": [
+      0.09455133238275305,
+      0.22048856477032186
+    ],
+    "split_accuracy": [
+      0.01174,
+      0.19152,
+      0.38305
+    ],
+    "split_fallback_tokens": [
+      1011.47384,
+      1190.53319,
+      1287.40813
+    ],
+    "split_positive": 195,
+    "original_global_sign_counts": null,
+    "resplits_with_both_global_signs": null
+  },
+  "nano-llama": {
+    "product": [
+      -8.52745625,
+      102.28097704861108
+    ],
+    "bootstrap_accuracy": [
+      -10.17616,
+      -8.49868,
+      -6.83173
+    ],
+    "bootstrap_fallback_tokens": [
+      78.56048,
+      101.48548,
+      126.1743
+    ],
+    "leave_one_out_accuracy": [
+      -8.646936891099932,
+      -8.398925467386093
+    ],
+    "split_accuracy": [
+      -9.25999,
+      -7.77073,
+      -5.49546
+    ],
+    "split_fallback_tokens": [
+      73.599,
+      103.54442,
+      125.31017
+    ],
+    "split_positive": 0,
+    "original_global_sign_counts": null,
+    "resplits_with_both_global_signs": null
+  },
+  "aime-small": {
+    "product": [
+      4.947916666666666,
+      871.772135416667
+    ],
+    "bootstrap_accuracy": [
+      1.30208,
+      4.60069,
+      8.78988
+    ],
+    "bootstrap_fallback_tokens": [
+      288.02642,
+      830.36079,
+      1428.24871
+    ],
+    "leave_one_out_accuracy": [
+      3.508979206049151,
+      5.493856332703212
+    ],
+    "split_accuracy": [
+      -1.13932,
+      0.52083,
+      5.64372
+    ],
+    "split_fallback_tokens": [
+      16.3228,
+      319.82113,
+      1286.96352
+    ],
+    "split_positive": 125,
+    "original_global_sign_counts": [
+      0,
+      24
+    ],
+    "resplits_with_both_global_signs": 87
+  },
+  "aime-small-characters": {
+    "product": [
+      3.0381944444444433,
+      481.4353298611113
+    ],
+    "bootstrap_accuracy": [
+      -0.97656,
+      2.86458,
+      7.44385
+    ],
+    "bootstrap_fallback_tokens": [
+      -162.74656,
+      462.41905,
+      1042.59864
+    ],
+    "leave_one_out_accuracy": [
+      1.7367674858223061,
+      3.72164461247637
+    ],
+    "split_accuracy": [
+      0.58214,
+      4.03646,
+      6.2972
+    ],
+    "split_fallback_tokens": [
+      -16.88097,
+      632.69255,
+      1194.70492
+    ],
+    "split_positive": 197,
+    "original_global_sign_counts": [
+      0,
+      24
+    ],
+    "resplits_with_both_global_signs": 30
+  },
+  "aime-medium": {
+    "product": [
+      4.188368055555555,
+      1237.0851779513891
+    ],
+    "bootstrap_accuracy": [
+      1.24783,
+      4.07986,
+      7.29194
+    ],
+    "bootstrap_fallback_tokens": [
+      490.10549,
+      1194.28765,
+      1897.95703
+    ],
+    "leave_one_out_accuracy": [
+      3.4262759924385633,
+      4.950378071833648
+    ],
+    "split_accuracy": [
+      1.63439,
+      5.33854,
+      7.16607
+    ],
+    "split_fallback_tokens": [
+      388.28284,
+      1698.04096,
+      2403.50899
+    ],
+    "split_positive": 200,
+    "original_global_sign_counts": [
+      0,
+      24
+    ],
+    "resplits_with_both_global_signs": 7
+  },
+  "aime-medium-characters": {
+    "product": [
+      0.8897569444444441,
+      264.17849392361086
+    ],
+    "bootstrap_accuracy": [
+      -2.14844,
+      0.93316,
+      3.93962
+    ],
+    "bootstrap_fallback_tokens": [
+      -650.66104,
+      276.60259,
+      1008.15156
+    ],
+    "leave_one_out_accuracy": [
+      0.21266540642722148,
+      1.6304347826086953
+    ],
+    "split_accuracy": [
+      -0.52409,
+      2.43056,
+      4.42708
+    ],
+    "split_fallback_tokens": [
+      -527.52453,
+      -53.3457,
+      508.28017
+    ],
+    "split_positive": 190,
+    "original_global_sign_counts": [
+      6,
+      18
+    ],
+    "resplits_with_both_global_signs": 54
+  }
+}

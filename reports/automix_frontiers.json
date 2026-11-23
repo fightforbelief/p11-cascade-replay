@@ -1,0 +1,2522 @@
+{
+  "coqa": {
+    "small": 0.4812706404952149,
+    "large": 0.6143466349041196,
+    "max_reconstruction_error": 1.136590821460004e-14,
+    "avg_points": {
+      "POMDP": [
+        6.933469805527125,
+        0.5054071904363946
+      ],
+      "Threshold": [
+        7.232855680655066,
+        0.5073256630066121
+      ],
+      "SelfConsistency": [
+        16.57267144319345,
+        0.5470152522145855
+      ]
+    },
+    "mean_ibc": {
+      "POMDP": 0.4367988620592076,
+      "Threshold": 0.4316468926243582,
+      "SelfConsistency": 0.5545095838956666
+    },
+    "mean_point_slope_winner": "SelfConsistency",
+    "profile": {
+      "ibc_winner": "SelfConsistency",
+      "mean_loss_pp": 0.0,
+      "maximum_loss_pp": 0.0,
+      "budget_at_max": 1.0,
+      "fraction_strictly_suboptimal": 0.0,
+      "fixed": {
+        "0.25": {
+          "scores_pp": {
+            "POMDP": 52.13852431664889,
+            "Threshold": 52.238303107157726,
+            "SelfConsistency": 53.29876176689871
+          },
+          "best": [
+            "SelfConsistency"
+          ],
+          "loss_pp": 0.0
+        },
+        "0.5": {
+          "scores_pp": {
+            "POMDP": 55.237237374569915,
+            "Threshold": 55.30375656824247,
+            "SelfConsistency": 56.4997226886359
+          },
+          "best": [
+            "SelfConsistency"
+          ],
+          "loss_pp": 0.0
+        },
+        "0.75": {
+          "scores_pp": {
+            "POMDP": 58.33595043249093,
+            "Threshold": 58.36921002932721,
+            "SelfConsistency": 58.96719308952393
+          },
+          "best": [
+            "SelfConsistency"
+          ],
+          "loss_pp": 0.0
+        }
+      }
+    },
+    "by_seed": [
+      {
+        "ibc_winner": "SelfConsistency",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 51.95728141956736,
+              "Threshold": 51.453963909744104,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 55.116408776515556,
+              "Threshold": 54.78086376996673,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.27553613346376,
+              "Threshold": 58.10776363018933,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "SelfConsistency",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 51.86691706274491,
+              "Threshold": 51.90783344552186,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 55.05616587196725,
+              "Threshold": 55.08344346048523,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.24541468118961,
+              "Threshold": 58.259053475448596,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.2666584801738563,
+        "maximum_loss_pp": 0.706882417812146,
+        "budget_at_max": 16.57267144319345,
+        "fraction_strictly_suboptimal": 0.7544634679107857,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 51.95728141956736,
+              "Threshold": 53.25510586366406,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.043655903234643745
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 55.116408776515556,
+              "Threshold": 55.98162507258003,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.5180976160558686
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.27553613346376,
+              "Threshold": 58.708144281496,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.2590488080279343
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.2666584801738563,
+        "maximum_loss_pp": 0.706882417812146,
+        "budget_at_max": 16.57267144319345,
+        "fraction_strictly_suboptimal": 0.7544634679107857,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 53.25510586366406,
+              "Threshold": 53.25510586366406,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.043655903234643745
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 55.98162507258003,
+              "Threshold": 55.98162507258003,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.5180976160558686
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.708144281496,
+              "Threshold": 58.708144281496,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.2590488080279343
+          }
+        }
+      },
+      {
+        "ibc_winner": "SelfConsistency",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 51.90783344552186,
+              "Threshold": 51.90783344552186,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 55.08344346048523,
+              "Threshold": 55.08344346048523,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.259053475448596,
+              "Threshold": 58.259053475448596,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.6223696972592786,
+        "maximum_loss_pp": 1.4628972629469033,
+        "budget_at_max": 16.57267144319345,
+        "fraction_strictly_suboptimal": 0.8508727345699707,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.4239432563535,
+              "Threshold": 52.4239432563535,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.8748185105452038
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 55.42751666770632,
+              "Threshold": 55.42751666770632,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 1.0722060209295776
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.43109007905913,
+              "Threshold": 58.43109007905913,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.5361030104647995
+          }
+        }
+      },
+      {
+        "ibc_winner": "SelfConsistency",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 51.453963909744104,
+              "Threshold": 51.453963909744104,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 54.78086376996673,
+              "Threshold": 54.78086376996673,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.10776363018933,
+              "Threshold": 58.10776363018933,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.622369697259278,
+        "maximum_loss_pp": 1.4628972629469033,
+        "budget_at_max": 16.57267144319345,
+        "fraction_strictly_suboptimal": 0.8508727345699706,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.491193060585985,
+              "Threshold": 52.4239432563535,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.8748185105452038
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 55.47234987052797,
+              "Threshold": 55.42751666770632,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 1.0722060209295776
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.45350668046997,
+              "Threshold": 58.43109007905913,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.5361030104647995
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.6223696972592786,
+        "maximum_loss_pp": 1.4628972629469033,
+        "budget_at_max": 16.57267144319345,
+        "fraction_strictly_suboptimal": 0.8508727345699707,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 51.95728141956736,
+              "Threshold": 52.4239432563535,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.8748185105452038
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 55.116408776515556,
+              "Threshold": 55.42751666770632,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 1.0722060209295776
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.27553613346376,
+              "Threshold": 58.43109007905913,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.5361030104647995
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.6223696972592786,
+        "maximum_loss_pp": 1.4628972629469033,
+        "budget_at_max": 16.57267144319345,
+        "fraction_strictly_suboptimal": 0.8508727345699707,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.4239432563535,
+              "Threshold": 52.4239432563535,
+              "SelfConsistency": 53.29876176689871
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.8748185105452038
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 55.42751666770632,
+              "Threshold": 55.42751666770632,
+              "SelfConsistency": 56.4997226886359
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 1.0722060209295776
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 58.43109007905913,
+              "Threshold": 58.43109007905913,
+              "SelfConsistency": 58.96719308952393
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.5361030104647995
+          }
+        }
+      }
+    ]
+  },
+  "cnli": {
+    "small": 0.40115718418514945,
+    "large": 0.5554484088717453,
+    "max_reconstruction_error": 1.3322676295501878e-15,
+    "avg_points": {
+      "POMDP": [
+        6.6624879459980715,
+        0.43519768563162964
+      ],
+      "Threshold": [
+        51.89874638379943,
+        0.5557377049180328
+      ],
+      "SelfConsistency": [
+        47.46769527483124,
+        0.5226615236258437
+      ]
+    },
+    "mean_ibc": {
+      "POMDP": 0.8871592843007582,
+      "Threshold": -0.03548199900760874,
+      "SelfConsistency": -0.16958437960445785
+    },
+    "mean_point_slope_winner": "POMDP",
+    "profile": {
+      "ibc_winner": "POMDP",
+      "mean_loss_pp": 0.0,
+      "maximum_loss_pp": 0.0,
+      "budget_at_max": 1.0,
+      "fraction_strictly_suboptimal": 0.0,
+      "fixed": {
+        "0.25": {
+          "scores_pp": {
+            "POMDP": 45.34763788768632,
+            "Threshold": 43.97299903567984,
+            "SelfConsistency": 43.97299903567984
+          },
+          "best": [
+            "POMDP"
+          ],
+          "loss_pp": 0.0
+        },
+        "0.5": {
+          "scores_pp": {
+            "POMDP": 48.74670555418239,
+            "Threshold": 47.83027965284474,
+            "SelfConsistency": 47.83027965284474
+          },
+          "best": [
+            "POMDP"
+          ],
+          "loss_pp": 0.0
+        },
+        "0.75": {
+          "scores_pp": {
+            "POMDP": 52.14577322067846,
+            "Threshold": 51.687560270009634,
+            "SelfConsistency": 51.687560270009634
+          },
+          "best": [
+            "POMDP"
+          ],
+          "loss_pp": 0.0
+        }
+      }
+    },
+    "by_seed": [
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 43.98158254801442,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 47.83600199440112,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 51.69042144078782,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 46.34064700611575,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 49.40871163313535,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 52.476776260154935,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 46.16984088717454,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 49.29484088717454,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 52.41984088717453,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 45.432240173926616,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 48.80310707834259,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 52.17397398275856,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 45.130898956753406,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 48.602212933560445,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 52.073526910367484,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 45.28924879614352,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 48.70777949315386,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 52.12631019016419,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 45.432240173926616,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 48.80310707834259,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 52.17397398275856,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 45.27219025269056,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 48.69640713085188,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 52.120624009013206,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 45.28924879614352,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 48.70777949315386,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 52.12631019016419,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 45.432240173926616,
+              "Threshold": 43.97299903567984,
+              "SelfConsistency": 43.97299903567984
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 48.80310707834259,
+              "Threshold": 47.83027965284474,
+              "SelfConsistency": 47.83027965284474
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 52.17397398275856,
+              "Threshold": 51.687560270009634,
+              "SelfConsistency": 51.687560270009634
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      }
+    ]
+  },
+  "narrative_qa": {
+    "small": 0.20283560982923104,
+    "large": 0.26449703832174737,
+    "max_reconstruction_error": 4.3021142204224816e-16,
+    "avg_points": {
+      "POMDP": [
+        9.94799176107106,
+        0.2143159375135153
+      ],
+      "Threshold": [
+        16.56745623069001,
+        0.22382920962851874
+      ],
+      "SelfConsistency": [
+        23.00926879505664,
+        0.23307973268026094
+      ]
+    },
+    "mean_ibc": {
+      "POMDP": 0.06436821177640357,
+      "Threshold": 0.12150770547688286,
+      "SelfConsistency": 0.0919880290547683
+    },
+    "mean_point_slope_winner": "SelfConsistency",
+    "profile": {
+      "ibc_winner": "Threshold",
+      "mean_loss_pp": 0.05720843340355427,
+      "maximum_loss_pp": 0.14146092891157025,
+      "budget_at_max": 23.00926879505664,
+      "fraction_strictly_suboptimal": 1.0,
+      "fixed": {
+        "0.25": {
+          "scores_pp": {
+            "POMDP": 21.84530186635749,
+            "Threshold": 21.9355431290767,
+            "SelfConsistency": 21.966899527129215
+          },
+          "best": [
+            "SelfConsistency"
+          ],
+          "loss_pp": 0.031356398052516
+        },
+        "0.5": {
+          "scores_pp": {
+            "POMDP": 23.380102521629908,
+            "Threshold": 23.469488477162685,
+            "SelfConsistency": 23.5978952525115
+          },
+          "best": [
+            "SelfConsistency"
+          ],
+          "loss_pp": 0.1284067753488145
+        },
+        "0.75": {
+          "scores_pp": {
+            "POMDP": 24.91490317690232,
+            "Threshold": 24.959596154668713,
+            "SelfConsistency": 25.023799542343117
+          },
+          "best": [
+            "SelfConsistency"
+          ],
+          "loss_pp": 0.0642033876744037
+        }
+      }
+    },
+    "by_seed": [
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.825096695236013,
+              "Threshold": 21.966899527129215,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.36663240754892,
+              "Threshold": 23.5978952525115,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.908168119861827,
+              "Threshold": 25.023799542343117,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "SelfConsistency",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.825096695236013,
+              "Threshold": 21.89037491122803,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.36663240754892,
+              "Threshold": 23.41660795874811,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.908168119861827,
+              "Threshold": 24.93315589546142,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.07034928247526609,
+        "maximum_loss_pp": 0.1761188007862451,
+        "budget_at_max": 23.00926879505664,
+        "fraction_strictly_suboptimal": 0.7988844139433907,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.932191385567684,
+              "Threshold": 21.932191385567684,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.03470814156153068
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.438028867770033,
+              "Threshold": 23.438028867770033,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.1598663847414663
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.943866349972385,
+              "Threshold": 24.943866349972385,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.07993319237073138
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0841984240388115,
+        "maximum_loss_pp": 0.19247348209673731,
+        "budget_at_max": 23.00926879505664,
+        "fraction_strictly_suboptimal": 0.8717597942347728,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.98731288619939,
+              "Threshold": 21.909923202701613,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.07738968349777764
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.47477653485784,
+              "Threshold": 23.42318341252599,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.174711839985509
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.962240183516286,
+              "Threshold": 24.936443622350364,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.08735591999275272
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.09397946259894165,
+        "maximum_loss_pp": 0.21305584609502048,
+        "budget_at_max": 23.00926879505664,
+        "fraction_strictly_suboptimal": 0.8822049647680438,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.88189869787463,
+              "Threshold": 21.966899527129215,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.08500082925458585
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.404500409307996,
+              "Threshold": 23.5978952525115,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.1933948432035031
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.927102120741367,
+              "Threshold": 25.023799542343117,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.09669742160174977
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.08023739450670976,
+        "maximum_loss_pp": 0.19247348209673731,
+        "budget_at_max": 23.00926879505664,
+        "fraction_strictly_suboptimal": 0.8337501211349456,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.909923202701613,
+              "Threshold": 21.909923202701613,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.05697632442760181
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.42318341252599,
+              "Threshold": 23.42318341252599,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.174711839985509
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.936443622350364,
+              "Threshold": 24.936443622350364,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.08735591999275272
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.07034928247526609,
+        "maximum_loss_pp": 0.1761188007862451,
+        "budget_at_max": 23.00926879505664,
+        "fraction_strictly_suboptimal": 0.7988844139433907,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.89219298378358,
+              "Threshold": 21.932191385567684,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.03470814156153068
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.411363266580633,
+              "Threshold": 23.438028867770033,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.1598663847414663
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.930533549377685,
+              "Threshold": 24.943866349972385,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.07993319237073138
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.871810828598527,
+              "Threshold": 21.966899527129215,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.408490022572938,
+              "Threshold": 23.5978952525115,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.929096927373838,
+              "Threshold": 25.023799542343117,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.07034928247526609,
+        "maximum_loss_pp": 0.1761188007862451,
+        "budget_at_max": 23.00926879505664,
+        "fraction_strictly_suboptimal": 0.7988844139433907,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.89219298378358,
+              "Threshold": 21.932191385567684,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.03470814156153068
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.411363266580633,
+              "Threshold": 23.438028867770033,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.1598663847414663
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.930533549377685,
+              "Threshold": 24.943866349972385,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.07993319237073138
+          }
+        }
+      },
+      {
+        "ibc_winner": "SelfConsistency",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 21.825096695236013,
+              "Threshold": 21.825096695236013,
+              "SelfConsistency": 21.966899527129215
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 23.36663240754892,
+              "Threshold": 23.36663240754892,
+              "SelfConsistency": 23.5978952525115
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 24.908168119861827,
+              "Threshold": 24.908168119861827,
+              "SelfConsistency": 25.023799542343117
+            },
+            "best": [
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      }
+    ]
+  },
+  "quality": {
+    "small": 0.47482014388489213,
+    "large": 0.6709832134292566,
+    "max_reconstruction_error": 1.609823385706477e-15,
+    "avg_points": {
+      "POMDP": [
+        15.80335731414868,
+        0.5287769784172662
+      ],
+      "Threshold": [
+        37.748201438848916,
+        0.6159712230215828
+      ],
+      "SelfConsistency": [
+        15.165467625899279,
+        0.5275779376498801
+      ]
+    },
+    "mean_ibc": {
+      "POMDP": -0.11836078999694852,
+      "Threshold": -0.04353735138238003,
+      "SelfConsistency": -0.06967532201445036
+    },
+    "mean_point_slope_winner": "Threshold",
+    "profile": {
+      "ibc_winner": "Threshold",
+      "mean_loss_pp": 0.0,
+      "maximum_loss_pp": 0.0,
+      "budget_at_max": 1.0,
+      "fraction_strictly_suboptimal": 0.0,
+      "fixed": {
+        "0.25": {
+          "scores_pp": {
+            "POMDP": 52.386091127098325,
+            "Threshold": 52.386091127098325,
+            "SelfConsistency": 52.386091127098325
+          },
+          "best": [
+            "POMDP",
+            "Threshold",
+            "SelfConsistency"
+          ],
+          "loss_pp": 0.0
+        },
+        "0.5": {
+          "scores_pp": {
+            "POMDP": 57.290167865707446,
+            "Threshold": 57.290167865707446,
+            "SelfConsistency": 57.290167865707446
+          },
+          "best": [
+            "POMDP",
+            "Threshold",
+            "SelfConsistency"
+          ],
+          "loss_pp": 0.0
+        },
+        "0.75": {
+          "scores_pp": {
+            "POMDP": 62.19424460431655,
+            "Threshold": 62.19424460431655,
+            "SelfConsistency": 62.19424460431655
+          },
+          "best": [
+            "POMDP",
+            "Threshold",
+            "SelfConsistency"
+          ],
+          "loss_pp": 0.0
+        }
+      }
+    },
+    "by_seed": [
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 52.386091127098325,
+              "Threshold": 52.386091127098325,
+              "SelfConsistency": 52.386091127098325
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 57.290167865707446,
+              "Threshold": 57.290167865707446,
+              "SelfConsistency": 57.290167865707446
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 62.19424460431655,
+              "Threshold": 62.19424460431655,
+              "SelfConsistency": 62.19424460431655
+            },
+            "best": [
+              "POMDP",
+              "Threshold",
+              "SelfConsistency"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      }
+    ]
+  },
+  "qasper": {
+    "small": 0.13997390297218726,
+    "large": 0.2810191656542279,
+    "max_reconstruction_error": 4.6074255521944e-15,
+    "avg_points": {
+      "POMDP": [
+        45.18950437317784,
+        0.27596834040755686
+      ],
+      "Threshold": [
+        47.180758017492714,
+        0.2774633945931545
+      ],
+      "SelfConsistency": [
+        44.332361516034986,
+        0.2675712781462391
+      ]
+    },
+    "mean_ibc": {
+      "POMDP": 0.06927144085720646,
+      "Threshold": 0.036689880929256,
+      "SelfConsistency": 0.022979566113392306
+    },
+    "mean_point_slope_winner": "POMDP",
+    "profile": {
+      "ibc_winner": "POMDP",
+      "mean_loss_pp": 0.0,
+      "maximum_loss_pp": 0.0,
+      "budget_at_max": 1.0,
+      "fraction_strictly_suboptimal": 0.0,
+      "fixed": {
+        "0.25": {
+          "scores_pp": {
+            "POMDP": 17.767362108883727,
+            "Threshold": 17.64446398041569,
+            "SelfConsistency": 17.604550837739296
+          },
+          "best": [
+            "POMDP"
+          ],
+          "loss_pp": 0.0
+        },
+        "0.5": {
+          "scores_pp": {
+            "POMDP": 21.53733392054873,
+            "Threshold": 21.291537663612655,
+            "SelfConsistency": 21.211711378259864
+          },
+          "best": [
+            "POMDP"
+          ],
+          "loss_pp": 0.0
+        },
+        "0.75": {
+          "scores_pp": {
+            "POMDP": 25.30730573221373,
+            "Threshold": 24.93861134680962,
+            "SelfConsistency": 24.818871918780435
+          },
+          "best": [
+            "POMDP"
+          ],
+          "loss_pp": 0.0
+        }
+      }
+    },
+    "by_seed": [
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.78632719986131,
+              "Threshold": 17.597484214877777,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.575264102503894,
+              "Threshold": 21.197578132536833,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.364201005146477,
+              "Threshold": 24.797672050195885,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 9.109764940537048e-07,
+        "maximum_loss_pp": 0.004068135774137005,
+        "budget_at_max": 50.0,
+        "fraction_strictly_suboptimal": 0.000447859434704809,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.78632719986131,
+              "Threshold": 17.524538898213276,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.575264102503894,
+              "Threshold": 21.051687499207826,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.364201005146477,
+              "Threshold": 24.578836100202377,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.013700812516589321,
+        "maximum_loss_pp": 0.21105325342633563,
+        "budget_at_max": 44.91545189504373,
+        "fraction_strictly_suboptimal": 0.12983275352702736,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.78632719986131,
+              "Threshold": 17.883800921105863,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "Threshold"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.575264102503894,
+              "Threshold": 21.770211544993,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "Threshold"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.364201005146477,
+              "Threshold": 25.65662216888014,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "Threshold"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 9.109764940537048e-07,
+        "maximum_loss_pp": 0.004068135774137005,
+        "budget_at_max": 50.0,
+        "fraction_strictly_suboptimal": 0.000447859434704809,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.78632719986131,
+              "Threshold": 17.524538898213276,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.575264102503894,
+              "Threshold": 21.051687499207826,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.364201005146477,
+              "Threshold": 24.578836100202377,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.679197819011154,
+              "Threshold": 17.597484214877777,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.361005340803587,
+              "Threshold": 21.197578132536833,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.04281286259602,
+              "Threshold": 24.797672050195885,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.0,
+        "maximum_loss_pp": 0.0,
+        "budget_at_max": 1.0,
+        "fraction_strictly_suboptimal": 0.0,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.78632719986131,
+              "Threshold": 17.597484214877777,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.575264102503894,
+              "Threshold": 21.197578132536833,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.364201005146477,
+              "Threshold": 24.797672050195885,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.001106357339717392,
+        "maximum_loss_pp": 0.03105830403758958,
+        "budget_at_max": 46.66472303206997,
+        "fraction_strictly_suboptimal": 0.07124389911170798,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.78632719986131,
+              "Threshold": 17.69764046728616,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.575264102503894,
+              "Threshold": 21.397890637353594,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.364201005146477,
+              "Threshold": 25.098140807421025,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 1.0184800953633288e-06,
+        "maximum_loss_pp": 0.004068135774137005,
+        "budget_at_max": 50.0,
+        "fraction_strictly_suboptimal": 0.0005007109653705618,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.71434103211928,
+              "Threshold": 17.524538898213276,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.431291767019832,
+              "Threshold": 21.051687499207826,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.148242501920386,
+              "Threshold": 24.578836100202377,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "POMDP",
+        "mean_loss_pp": 0.001106357339717392,
+        "maximum_loss_pp": 0.03105830403758958,
+        "budget_at_max": 46.66472303206997,
+        "fraction_strictly_suboptimal": 0.07124389911170798,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.78632719986131,
+              "Threshold": 17.69764046728616,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.575264102503894,
+              "Threshold": 21.397890637353594,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.364201005146477,
+              "Threshold": 25.098140807421025,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "POMDP"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      },
+      {
+        "ibc_winner": "Threshold",
+        "mean_loss_pp": 0.014715827241371831,
+        "maximum_loss_pp": 0.2315619001422462,
+        "budget_at_max": 45.177842565597665,
+        "fraction_strictly_suboptimal": 0.12710059152504677,
+        "fixed": {
+          "0.25": {
+            "scores_pp": {
+              "POMDP": 17.77999153555471,
+              "Threshold": 17.883800921105863,
+              "SelfConsistency": 17.604550837739296
+            },
+            "best": [
+              "Threshold"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.5": {
+            "scores_pp": {
+              "POMDP": 21.562592773890703,
+              "Threshold": 21.770211544993,
+              "SelfConsistency": 21.211711378259864
+            },
+            "best": [
+              "Threshold"
+            ],
+            "loss_pp": 0.0
+          },
+          "0.75": {
+            "scores_pp": {
+              "POMDP": 25.345194012226692,
+              "Threshold": 25.65662216888014,
+              "SelfConsistency": 24.818871918780435
+            },
+            "best": [
+              "Threshold"
+            ],
+            "loss_pp": 0.0
+          }
+        }
+      }
+    ]
+  }
+}

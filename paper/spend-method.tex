@@ -1,0 +1,23 @@
+\section{A sharp comparison at the cascade's own spend}\label{sec:spend}
+Let $P$ be the convex hull of the attainable pairs $(c,a)$ of average spend and score for a fixed gate under the stated alignment convention. A point in this hull represents a lottery over allowed alignments. For the post-answer gate the first response is always paid in full. If first- and second-model output lengths are $s_{ir}$ and $t_{ij}$, the gate costs $\E[s_{ir}+\rho g_{ir}t_{i,\pi_i(r)}]$ in first-stage token-price units. Its score is $\E[(1-g_{ir})y_{ir}+g_{ir}z_{i,\pi_i(r)}]$. Both expressions use the same $\pi_i$. Let the available direct services have points $(c_j,a_j)$ measured on the same questions. At any budget $c\ge\min_j c_j$ their best query-independent mixture has score
+\[
+ F(c)=\max_{w\ge0}\left\{\sum_j w_j a_j:\ \sum_jw_j=1,\ \sum_j w_jc_j\le c\right\}.
+\]
+The upper envelope increases linearly between efficient vertices and stays flat beyond the highest efficient score. Unused budget is permitted. The diagnostic $a-F(c)$ is positive precisely when the gate outperforms every such direct lottery affordable at its actual spend. The test-set envelope measures descriptive headroom. Choosing weights for deployment requires a training set or other information available before evaluation.
+
+\paragraph{Proposition.} Assume every point in $P$ can afford a direct service. Write $b(\lambda)=\max_j(a_j-\lambda c_j)$, and let $s_-(\lambda)$ and $s_+(\lambda)$ minimize and maximize $a-\lambda c$ over $P$, respectively, returning the objective values. Let $L$ contain zero and the slopes of the increasing segments of $F$ and put $\Lambda=[0,\max L]$. The attainable excess scores form an interval with endpoints
+\begin{align}
+ \min_P \{a-F(c)\}&=\max_{\lambda\in\Lambda}\{s_-(\lambda)-b(\lambda)\}, \label{eq:lower}\\
+ \max_P \{a-F(c)\}&=\max_{\lambda\in L}\{s_+(\lambda)-b(\lambda)\}. \label{eq:upper}
+\end{align}
+When the envelope is flat, $L=\{0\}$.
+
+\paragraph{Proof and computation.} The supporting lines of the direct frontier give $F(c)=\min_{\lambda\in\Lambda}\{b(\lambda)+\lambda c\}$. Hence the excess is the maximum of $a-\lambda c-b(\lambda)$ over $\lambda$. This objective is affine in $(c,a)$, continuous, and concave in $\lambda$. Compactness and convexity allow exchange of the minimum and maximum in~\eqref{eq:lower} by the minimax theorem \cite{sion}. For the upper endpoint, exchange the two maxima. Between consecutive direct slopes $b$ is affine and $s_+$ is convex, so one endpoint of each interval attains its maximum. The excess varies continuously on connected $P$, proving interval attainability.
+
+For a price $\lambda$, the support calculation in Eq.~\eqref{eq:contrast} assigns each selected fallback its score less $\lambda$ times its cost; the retained scores and first-call costs supply the constant. For the lower endpoint we maximize a concave one-dimensional function. A direct maximizing point and a replay minimizing point give a supergradient equal to direct cost minus replay cost. Bisection brackets the optimum. Feasible replay points and mixtures of two such points at a frontier kink give primal upper bounds on the minimum; Eq.~\eqref{eq:lower} gives a dual lower bound. The implementation rejects an unclosed gap larger than $10^{-8}$ score points. For the upper endpoint a single witnessed alignment suffices. Tests compare against exhaustive enumeration and segment intersection, including a minimum in the interior of a segment. For example, direct points $(1,0),(2,4)$ and attainable replays $(1,1),(3,5)$ give excess $+1$ at both pure replays but $-1$ at their equal mixture. Reporting only pure permutations would miss the attainable minimum when fractional couplings are allowed.
+
+\paragraph{A price boundary for two direct services.} Write $s,l$ for standalone mean output lengths, $a_s,a_l$ for standalone scores, and $\Delta=a_l-a_s$. For a fixed replay let its score be $a_s+G$ and its spend $s+\rho T$. If $0<G<\Delta$, a direct lottery attains that score with fallback probability $G/\Delta$. For $\rho l>s$ the necessary direct spend is $s+(\rho l-s)G/\Delta$; for $\rho l\le s$ the large service is already affordable. Thus the replay wins strictly above
+\[
+ \rho_*=\frac{sG}{lG-\Delta T}
+\]
+when the denominator is positive. Otherwise no finite price produces a win. As $G$ and $T$ depend on the same pairing, their separate extrema need not determine this boundary. Optimizing $G-\Delta T/(l-s/\rho)$ with the assignment oracle and searching for a sign change yields the earliest price for any alignment and the threshold for every alignment. This analysis varies relative output prices while holding lengths, grades, and the gate fixed.

@@ -1,0 +1,26 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sources": {
+    "spend_replay.py": "5d42cc2d8afc8ccac41a87675d927ada7531340c395cfda98695c7249385a501",
+    "replay.py": "91df94a1e9aee7f77dde7350c167a4ffea9be47425644f0c42756d6d96d90388",
+    "published_frontiers.py": "77f02b20b33820e32b653a1e726f26e68369f669d429a39edd06789fb24ae1cf",
+    "automix_frontiers.py": "38174d2ef39f5854c0eab2450ac8f8b3651fa13bb620548500dd55fae21860d4",
+    "price_threshold.py": "5adc521ba6c842597ef1ea9146e36569a49fd735a1cc4935d8acb0484719720b",
+    "verify_frontiers.py": "97504cf1b73361bb4162ae048c8a67b2a619c697e0a2cb92c54bfdd3d0c72572",
+    "test_spend.py": "a0448ed6161b75e42861682d4b8a3a683fbfffbb5861475d402900a0eefe621f",
+    "FRONTIER_PROTOCOL.md": "300d46295d70dc5cb0f5add3983dbe6a516c236f1283632c79d1e374adf0f863",
+    "question_sensitivity.py": "bf8814d661726d334edb21a6c293d9d5df691954b81f6e2e04140f5cd547c5ac",
+    "spend_sensitivity.py": "b2310f49aa44013355db4c43b42ae507ce77aaf40334d7004b5fed118cefd44d",
+    "study.py": "d6847363bc9afbc5c905a7bece199b7fcb5f69dadebfcd408b1199281b5793ab",
+    "Run-Study.ps1": "4a7edde01f7f15d5a8b3a40aae952c3f4e3b89292767faf2e2f09c8c70d43889"
+  },
+  "results": {
+    "published_frontiers": "5b1c5072bed05eba6652409b839da6a2955e3fb4727bf3a4732a60bfec896a6e",
+    "automix_frontiers": "91cf1895f6a346d75607278499d5b4882213e5499119a46186ed9696b67583ed",
+    "price_threshold": "0de8da0a37aef790be6d3bf2ee5784dd5b2ccf3a37bcc18e3974650ee7e16919",
+    "spend_replay": "3df5de735cf43907b43c32ecd1951403275d5aeb70d766788d529f354178b786",
+    "question_sensitivity": "3d8a1138499fafa6ffff64b92af4256ae5a5cefb99adfaa7f39828dafa2ed8dd",
+    "spend_sensitivity": "875477b28baca2bd2bb10a0b10380836f15593540e8c6aa98eb4a8001b20580c"
+  }
+}

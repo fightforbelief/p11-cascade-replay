@@ -1,5 +1,6 @@
 """Build manuscript tables and the range figure from returned Windows results."""
 import json
+from spend_display import build as build_spend_displays
 from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
@@ -61,3 +62,5 @@ for ax,(key,title) in zip(axes,[("nano-super","MATH-500 · Nano to Super"),("aim
     ax.tick_params(labelsize=8);ax.set_ylim(-.55,2.55)
     ax.spines[["top","right","left"]].set_visible(False);ax.grid(axis="x",alpha=.16)
 fig.savefig(HERE/"alignment.pdf")
+
+build_spend_displays()

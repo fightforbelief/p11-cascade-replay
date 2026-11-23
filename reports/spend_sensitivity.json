@@ -1,0 +1,47 @@
+{
+  "point_pp": [
+    4.188368055555557,
+    -4.166666666666664,
+    2.146523697632496
+  ],
+  "bootstrap": {
+    "draws": 5000,
+    "call_gap_pp": [
+      1.24783,
+      4.07986,
+      7.29194
+    ],
+    "spend_1_gap_pp": [
+      -13.54167,
+      -4.16667,
+      4.16667
+    ],
+    "spend_4_gap_pp": [
+      -1.99813,
+      2.15634,
+      5.97566
+    ],
+    "positive_calls_negative_spend_1": 4105,
+    "negative_spend_1_positive_spend_4": 3426
+  },
+  "refit_splits": {
+    "draws": 200,
+    "call_gap_pp": [
+      1.63439,
+      5.33854,
+      7.16607
+    ],
+    "spend_1_gap_pp": [
+      -6.77083,
+      -2.60417,
+      1.57552
+    ],
+    "spend_4_gap_pp": [
+      -2.93621,
+      2.6263,
+      4.76707
+    ],
+    "positive_calls_negative_spend_1": 170,
+    "negative_spend_1_positive_spend_4": 144
+  }
+}
