@@ -1,0 +1,38 @@
+{
+  "nano-super": {
+    "file": "b300.csv",
+    "models": [
+      "nano9b-f1",
+      "super49b-f1"
+    ],
+    "replicates": 30,
+    "sha256": "ccdde4c3009d2fff3733a27b275a582df2aac139c7f737a501510e283be18fc1"
+  },
+  "nano-llama": {
+    "file": "b300.csv",
+    "models": [
+      "nano9b-f1",
+      "llama70b-f1"
+    ],
+    "replicates": 30,
+    "sha256": "ccdde4c3009d2fff3733a27b275a582df2aac139c7f737a501510e283be18fc1"
+  },
+  "aime-small": {
+    "file": "aime.csv",
+    "models": [
+      "1.5b",
+      "32b"
+    ],
+    "replicates": 4,
+    "sha256": "09174acbf34cfcf811ff82ddcc7be3e465500466838954f0e330ae0d6414a1ce"
+  },
+  "aime-medium": {
+    "file": "aime.csv",
+    "models": [
+      "14b",
+      "32b"
+    ],
+    "replicates": 4,
+    "sha256": "09174acbf34cfcf811ff82ddcc7be3e465500466838954f0e330ae0d6414a1ce"
+  }
+}
