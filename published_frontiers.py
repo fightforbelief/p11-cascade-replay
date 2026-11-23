@@ -39,6 +39,7 @@ def audit_row(row,train,test):
     chosen=best(direct_options(train,cap))
     result={"budget":float(cap),"cascade_test_cost":float(cost),"cascade_test_score":float(score),
             "cascade_within_budget":cost<=cap+EPS}
+    result["gap_above_best_at_any_spend_pp"]=float(100*(score-max(a for c,a in test.values())))
     if mix:
         result.update(single_gap_pp=float(100*(score-single[0])),hull_gap_pp=float(100*(score-mix[0])),
                       oracle_weights={k:float(w) for k,w in mix[2]})
