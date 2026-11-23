@@ -1,0 +1,63 @@
+{
+  "AGNEWS": {
+    "table": "summary_AGNEWS_e8_full_2024.csv",
+    "sha256": "aa6243487fe1186484a481d5e5af8fca4777365153bf025b34973fcb38245978",
+    "pool": [
+      "Meta-Llama-3-70B-Instruct-Turbo",
+      "gemini-1.5-flash",
+      "gemini-1.5-flash-8b",
+      "gpt-4-turbo",
+      "claude-3-5-sonnet-20240620"
+    ],
+    "notebook": "FrugalGPT_gen_tradeoff_AGNEWS2024.ipynb"
+  },
+  "COQA": {
+    "table": "summary_COQA_e2_full_2024.csv",
+    "sha256": "4d048f3086afcf1b857f121c1ae0995cdd9d535cf09a73571eb4e1645246ccea",
+    "pool": [
+      "Meta-Llama-3-70B-Instruct-Turbo",
+      "gemini-1.5-flash",
+      "gemini-1.5-flash-8b",
+      "gpt-4-turbo",
+      "claude-3-5-sonnet-20240620"
+    ],
+    "notebook": "FrugalGPT_gen_tradeoff_COQA2024.ipynb"
+  },
+  "HEADLINES": {
+    "table": "summary_HEADLINES_e8_full_2024.csv",
+    "sha256": "a5bc629f657bb017f73d446e23c935d2934d39c2bfc0f371c76d30d5cf9b3f39",
+    "pool": [
+      "Meta-Llama-3-70B-Instruct-Turbo",
+      "gemini-1.5-flash",
+      "gemini-1.5-flash-8b",
+      "gpt-4-turbo",
+      "claude-3-5-sonnet-20240620"
+    ],
+    "notebook": "FrugalGPT_gen_tradeoff_HEADLINES2024.ipynb"
+  },
+  "OVERRULING": {
+    "table": "summary_OVERRULING_e5_full_2024.csv",
+    "sha256": "57e261c822a0beb9bd0904651a4fd2929d7b5911d789cc3f313625799cb457d5",
+    "pool": [
+      "Meta-Llama-3-70B-Instruct-Turbo",
+      "gemini-1.5-flash",
+      "gemini-1.5-flash-8b",
+      "gpt-4o-mini",
+      "gpt-4-turbo",
+      "claude-3-5-sonnet-20240620"
+    ],
+    "notebook": "FrugalGPT_gen_tradeoff_OVERRULING2024.ipynb"
+  },
+  "SCIQ": {
+    "table": "summary_SCIQ_e8_full_2024.csv",
+    "sha256": "6a77e3feb59fab8bb8db0c65d570a4b50bfbc4b24446ec0b58510c76daf8e9fd",
+    "pool": [
+      "Meta-Llama-3-70B-Instruct-Turbo",
+      "gemini-1.5-flash",
+      "gemini-1.5-flash-8b",
+      "gpt-4-turbo",
+      "claude-3-5-sonnet-20240620"
+    ],
+    "notebook": "FrugalGPT_gen_tradeoff_SCIQ2024.ipynb"
+  }
+}
