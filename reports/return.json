@@ -1,0 +1,9 @@
+{
+  "analysis_commit": "516d1c3925bed8303961771913868590386fe1d4",
+  "command": "Run-Study.ps1",
+  "returned_archive_sha256": "dc2ca7534f674d059520209d96014f568a99f764d6702b807d99832fe5788650",
+  "character_sha256": "fe7a47d91c20c035315a0bc5320899e8ce33f0c7e1292a28a02dbd2180148ef6",
+  "unit_tests": 5,
+  "signed_direction_records_checked": 200,
+  "independent_evaluation_configurations": 6
+}

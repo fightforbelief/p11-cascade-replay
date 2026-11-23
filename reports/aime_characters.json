@@ -1,0 +1,1450 @@
+{
+  "aime-small": {
+    "cut_characters": 94336,
+    "median_characters": 1118,
+    "evaluation": {
+      "n": 24,
+      "call_fraction": 0.20833333333333334,
+      "first_accuracy": 0.1875,
+      "fallback_accuracy": 0.6041666666666666,
+      "mixed_questions": 12,
+      "comparisons": {
+        "keep": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": 7.291666666666667,
+            "local_max": 16.666666666666668,
+            "common_min": 9.375,
+            "common_max": 13.541666666666666,
+            "identity": 12.5,
+            "product": 11.71875,
+            "common_sd": 1.135129933213717,
+            "local_sd": 1.4342631633557559,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "common_max_permutation": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": 2404.9895833333335,
+            "local_max": 3769.96875,
+            "common_min": 2715.8541666666665,
+            "common_max": 3432.2083333333335,
+            "identity": 3420.0208333333335,
+            "product": 3052.5052083333335,
+            "common_sd": 203.75872334999102,
+            "local_sd": 166.6504846202401,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              0,
+              1,
+              2
+            ],
+            "common_max_permutation": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": 6.947446875,
+            "local_max": 16.405523958333333,
+            "common_min": 9.063195833333333,
+            "common_max": 13.270081249999999,
+            "identity": 12.157997916666666,
+            "product": 11.413499479166667,
+            "common_sd": 1.1398542914155152,
+            "local_sd": 1.4363862842842592,
+            "erase_questions": null,
+            "common_min_permutation": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": 3.84946875,
+            "local_max": 14.055239583333332,
+            "common_min": 6.256958333333333,
+            "common_max": 10.8258125,
+            "identity": 9.079979166666666,
+            "product": 8.666244791666667,
+            "common_sd": 1.197231900966039,
+            "local_sd": 1.4639171173901266,
+            "erase_questions": null,
+            "common_min_permutation": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -27.597395833333334,
+            "local_max": -9.152187499999998,
+            "common_min": -23.486875,
+            "common_max": -13.616875,
+            "identity": -21.700208333333332,
+            "product": -18.806302083333335,
+            "common_sd": 2.544316827778567,
+            "local_sd": 2.3272409484665157,
+            "erase_questions": null,
+            "common_min_permutation": [
+              1,
+              2,
+              0,
+              3
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "random": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -1.3888888888888904,
+            "local_max": 7.986111111111108,
+            "common_min": 0.6944444444444429,
+            "common_max": 4.86111111111111,
+            "identity": 3.8194444444444424,
+            "product": 3.0381944444444424,
+            "common_sd": 1.1351299332137168,
+            "local_sd": 1.4342631633557559,
+            "erase_questions": 4,
+            "common_min_permutation": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -166.08029513888906,
+            "local_max": 1198.8988715277776,
+            "common_min": 144.7842881944442,
+            "common_max": 861.138454861111,
+            "identity": 848.9509548611109,
+            "product": 481.43532986111103,
+            "common_sd": 203.75872334999102,
+            "local_sd": 166.6504846202401,
+            "erase_questions": 7,
+            "common_min_permutation": [
+              3,
+              0,
+              1,
+              2
+            ],
+            "common_max_permutation": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -1.4760016927083341,
+            "local_max": 7.982075390624999,
+            "common_min": 0.639747265625001,
+            "common_max": 4.846632682291666,
+            "identity": 3.7345493489583323,
+            "product": 2.9900509114583342,
+            "common_sd": 1.1398542914155148,
+            "local_sd": 1.4363862842842592,
+            "erase_questions": 4,
+            "common_min_permutation": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -2.2600169270833335,
+            "local_max": 7.94575390625,
+            "common_min": 0.1474726562500006,
+            "common_max": 4.716326822916667,
+            "identity": 2.9704934895833333,
+            "product": 2.5567591145833335,
+            "common_sd": 1.1972319009660388,
+            "local_sd": 1.4639171173901266,
+            "erase_questions": 3,
+            "common_min_permutation": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 15,
+              "zero": 0,
+              "positive": 9
+            },
+            "local_min": -10.567252604166663,
+            "local_max": 7.877955729166668,
+            "common_min": -6.45673177083333,
+            "common_max": 3.4132682291666683,
+            "identity": -4.670065104166664,
+            "product": -1.7761588541666644,
+            "common_sd": 2.544316827778566,
+            "local_sd": 2.3272409484665157,
+            "erase_questions": 2,
+            "common_min_permutation": [
+              1,
+              2,
+              0,
+              3
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "within_question": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 6,
+              "zero": 6,
+              "positive": 12
+            },
+            "local_min": -4.166666666666667,
+            "local_max": 5.208333333333333,
+            "common_min": -2.0833333333333335,
+            "common_max": 2.0833333333333335,
+            "identity": 1.0416666666666667,
+            "product": 0.2604166666666667,
+            "common_sd": 1.135129933213717,
+            "local_sd": 1.4342631633557559,
+            "erase_questions": 1,
+            "common_min_permutation": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "common_max_permutation": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 14,
+              "zero": 0,
+              "positive": 10
+            },
+            "local_min": -647.515625,
+            "local_max": 717.4635416666666,
+            "common_min": -336.6510416666667,
+            "common_max": 379.703125,
+            "identity": 367.515625,
+            "product": 0.0,
+            "common_sd": 203.75872334999102,
+            "local_sd": 166.6504846202401,
+            "erase_questions": 2,
+            "common_min_permutation": [
+              3,
+              0,
+              1,
+              2
+            ],
+            "common_max_permutation": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 9,
+              "zero": 0,
+              "positive": 15
+            },
+            "local_min": -4.2056359375,
+            "local_max": 5.252441145833333,
+            "common_min": -2.0898869791666668,
+            "common_max": 2.1169984375,
+            "identity": 1.0049151041666666,
+            "product": 0.2604166666666668,
+            "common_sd": 1.139854291415515,
+            "local_sd": 1.4363862842842592,
+            "erase_questions": 1,
+            "common_min_permutation": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 9,
+              "zero": 0,
+              "positive": 15
+            },
+            "local_min": -4.5563593749999995,
+            "local_max": 5.649411458333333,
+            "common_min": -2.1488697916666664,
+            "common_max": 2.4199843750000003,
+            "identity": 0.6741510416666667,
+            "product": 0.2604166666666667,
+            "common_sd": 1.1972319009660388,
+            "local_sd": 1.4639171173901266,
+            "erase_questions": 1,
+            "common_min_permutation": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 12,
+              "zero": 0,
+              "positive": 12
+            },
+            "local_min": -8.530677083333334,
+            "local_max": 9.914531250000001,
+            "common_min": -4.420156250000001,
+            "common_max": 5.4498437499999985,
+            "identity": -2.633489583333333,
+            "product": 0.2604166666666659,
+            "common_sd": 2.544316827778566,
+            "local_sd": 2.3272409484665157,
+            "erase_questions": 1,
+            "common_min_permutation": [
+              1,
+              2,
+              0,
+              3
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "median": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -28.125,
+            "local_max": -17.708333333333332,
+            "common_min": -22.916666666666668,
+            "common_max": -19.791666666666668,
+            "identity": -19.791666666666668,
+            "product": -21.354166666666668,
+            "common_sd": 0.9021097956087902,
+            "local_sd": 1.5184770559492968,
+            "erase_questions": null,
+            "common_min_permutation": [
+              2,
+              0,
+              3,
+              1
+            ],
+            "common_max_permutation": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -6449.416666666667,
+            "local_max": -4577.65625,
+            "common_min": -5884.979166666667,
+            "common_max": -5180.135416666667,
+            "identity": -5205.84375,
+            "product": -5473.677083333333,
+            "common_sd": 202.84081758879938,
+            "local_sd": 216.036136236537,
+            "erase_questions": null,
+            "common_min_permutation": [
+              0,
+              3,
+              1,
+              2
+            ],
+            "common_max_permutation": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -27.629315625,
+            "local_max": -17.076198958333332,
+            "common_min": -22.386478125,
+            "common_max": -19.203168750000003,
+            "identity": -19.271082291666666,
+            "product": -20.80679895833333,
+            "common_sd": 0.9096749537714542,
+            "local_sd": 1.5218967608544103,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              0,
+              2,
+              1
+            ],
+            "common_max_permutation": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -23.16815625,
+            "local_max": -11.386989583333333,
+            "common_min": -17.614781250000004,
+            "common_max": -13.906687499999999,
+            "identity": -14.585822916666666,
+            "product": -15.880489583333334,
+            "common_sd": 0.9939297876324344,
+            "local_sd": 1.5658061287833416,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              0,
+              2,
+              1
+            ],
+            "common_max_permutation": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": 20.6634375,
+            "local_max": 45.606458333333336,
+            "common_min": 30.102187500000003,
+            "common_max": 39.058125,
+            "identity": 32.26677083333333,
+            "product": 33.38260416666667,
+            "common_sd": 2.5015477674109863,
+            "local_sd": 2.822406827294001,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              0,
+              2,
+              1
+            ],
+            "common_max_permutation": [
+              0,
+              3,
+              1,
+              2
+            ]
+          }
+        },
+        "always": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -34.375,
+            "local_max": -25.0,
+            "common_min": -32.291666666666664,
+            "common_max": -28.125,
+            "identity": -29.166666666666668,
+            "product": -29.947916666666668,
+            "common_sd": 1.135129933213717,
+            "local_sd": 1.4342631633557559,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "common_max_permutation": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -9936.145833333334,
+            "local_max": -8571.166666666666,
+            "common_min": -9625.28125,
+            "common_max": -8908.927083333334,
+            "identity": -8921.114583333334,
+            "product": -9288.630208333334,
+            "common_sd": 203.75872334999102,
+            "local_sd": 166.6504846202401,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              0,
+              1,
+              2
+            ],
+            "common_max_permutation": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -33.48510625,
+            "local_max": -24.027029166666665,
+            "common_min": -31.36935729166666,
+            "common_max": -27.162471875000005,
+            "identity": -28.274555208333336,
+            "product": -29.019053645833328,
+            "common_sd": 1.1398542914155143,
+            "local_sd": 1.4363862842842592,
+            "erase_questions": null,
+            "common_min_permutation": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -25.476062499999998,
+            "local_max": -15.270291666666667,
+            "common_min": -23.068572916666664,
+            "common_max": -18.49971875,
+            "identity": -20.245552083333333,
+            "product": -20.65928645833333,
+            "common_sd": 1.1972319009660388,
+            "local_sd": 1.4639171173901266,
+            "erase_questions": null,
+            "common_min_permutation": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": 54.14729166666667,
+            "local_max": 72.5925,
+            "common_min": 58.2578125,
+            "common_max": 68.1278125,
+            "identity": 60.04447916666667,
+            "product": 62.93838541666667,
+            "common_sd": 2.5443168277785664,
+            "local_sd": 2.3272409484665157,
+            "erase_questions": null,
+            "common_min_permutation": [
+              1,
+              2,
+              0,
+              3
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              1,
+              2
+            ]
+          }
+        }
+      }
+    },
+    "excluded": {}
+  },
+  "aime-medium": {
+    "cut_characters": 1679,
+    "median_characters": 1361,
+    "evaluation": {
+      "n": 24,
+      "call_fraction": 0.23958333333333334,
+      "first_accuracy": 0.5,
+      "fallback_accuracy": 0.6041666666666666,
+      "mixed_questions": 10,
+      "comparisons": {
+        "keep": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -1.0416666666666667,
+            "local_max": 8.333333333333334,
+            "common_min": 2.0833333333333335,
+            "common_max": 5.208333333333333,
+            "identity": 4.166666666666667,
+            "product": 3.3854166666666665,
+            "common_sd": 1.0524614282102553,
+            "local_sd": 1.4959798558692785,
+            "erase_questions": 4,
+            "common_min_permutation": [
+              2,
+              1,
+              0,
+              3
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": 2609.8125,
+            "local_max": 3894.9270833333335,
+            "common_min": 2986.8333333333335,
+            "common_max": 3496.7291666666665,
+            "identity": 3302.1770833333335,
+            "product": 3220.9088541666665,
+            "common_sd": 128.5398485997312,
+            "local_sd": 169.1632068031754,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "common_max_permutation": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -1.4021697916666669,
+            "local_max": 8.049735416666667,
+            "common_min": 1.7407656249999992,
+            "common_max": 4.901685416666666,
+            "identity": 3.8364489583333334,
+            "product": 3.0633257812500005,
+            "common_sd": 1.0528990218172847,
+            "local_sd": 1.498680147343247,
+            "erase_questions": 4,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 11,
+              "zero": 0,
+              "positive": 13
+            },
+            "local_min": -4.646697916666667,
+            "local_max": 5.497354166666667,
+            "common_min": -1.3423437500000002,
+            "common_max": 2.141854166666666,
+            "identity": 0.8644895833333335,
+            "product": 0.16450781249999955,
+            "common_sd": 1.0638412588421484,
+            "local_sd": 1.5312004602239708,
+            "erase_questions": 1,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -37.5590625,
+            "local_max": -19.731041666666666,
+            "common_min": -32.1734375,
+            "common_max": -25.45645833333333,
+            "identity": -28.855104166666667,
+            "product": -28.823671875000002,
+            "common_sd": 1.6839035187144493,
+            "local_sd": 2.4247894918188373,
+            "erase_questions": null,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          }
+        },
+        "random": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 6,
+              "zero": 0,
+              "positive": 18
+            },
+            "local_min": -3.537326388888889,
+            "local_max": 5.837673611111111,
+            "common_min": -0.41232638888889045,
+            "common_max": 2.712673611111109,
+            "identity": 1.671006944444444,
+            "product": 0.8897569444444429,
+            "common_sd": 1.052461428210255,
+            "local_sd": 1.4959798558692785,
+            "erase_questions": 2,
+            "common_min_permutation": [
+              2,
+              3,
+              1,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -346.91786024305566,
+            "local_max": 938.1967230902775,
+            "common_min": 30.102973090277526,
+            "common_max": 539.9988064236107,
+            "identity": 345.4467230902776,
+            "product": 264.1784939236108,
+            "common_sd": 128.53984859973116,
+            "local_sd": 169.1632068031754,
+            "erase_questions": 3,
+            "common_min_permutation": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "common_max_permutation": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 6,
+              "zero": 0,
+              "positive": 18
+            },
+            "local_min": -3.602156477864583,
+            "local_max": 5.84974873046875,
+            "common_min": -0.45922106119791667,
+            "common_max": 2.7016987304687494,
+            "identity": 1.6364622721354174,
+            "product": 0.8633390950520837,
+            "common_sd": 1.0528990218172842,
+            "local_sd": 1.498680147343247,
+            "erase_questions": 2,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 6,
+              "zero": 0,
+              "positive": 18
+            },
+            "local_min": -4.185627278645832,
+            "local_max": 5.958424804687501,
+            "common_min": -0.8812731119791662,
+            "common_max": 2.6029248046875004,
+            "identity": 1.3255602213541675,
+            "product": 0.6255784505208339,
+            "common_sd": 1.0638412588421486,
+            "local_sd": 1.5312004602239708,
+            "erase_questions": 2,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 21,
+              "zero": 0,
+              "positive": 3
+            },
+            "local_min": -10.487418619791663,
+            "local_max": 7.340602213541669,
+            "common_min": -5.101793619791665,
+            "common_max": 1.6151855468750014,
+            "identity": -1.7834602864583304,
+            "product": -1.7520279947916642,
+            "common_sd": 1.6839035187144493,
+            "local_sd": 2.4247894918188373,
+            "erase_questions": 1,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          }
+        },
+        "within_question": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -2.0833333333333335,
+            "local_max": 7.291666666666667,
+            "common_min": 1.0416666666666667,
+            "common_max": 4.166666666666667,
+            "identity": 3.125,
+            "product": 2.34375,
+            "common_sd": 1.0524614282102553,
+            "local_sd": 1.4959798558692785,
+            "erase_questions": 3,
+            "common_min_permutation": [
+              2,
+              1,
+              0,
+              3
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 13,
+              "zero": 0,
+              "positive": 11
+            },
+            "local_min": -611.0963541666666,
+            "local_max": 674.0182291666666,
+            "common_min": -234.07552083333334,
+            "common_max": 275.8203125,
+            "identity": 81.26822916666667,
+            "product": 0.0,
+            "common_sd": 128.5398485997312,
+            "local_sd": 169.1632068031754,
+            "erase_questions": 1,
+            "common_min_permutation": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "common_max_permutation": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -2.1217455729166668,
+            "local_max": 7.330159635416667,
+            "common_min": 1.0211898437500004,
+            "common_max": 4.1821096354166665,
+            "identity": 3.1168731770833333,
+            "product": 2.3437500000000004,
+            "common_sd": 1.0528990218172845,
+            "local_sd": 1.498680147343247,
+            "erase_questions": 3,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -2.4674557291666663,
+            "local_max": 7.676596354166667,
+            "common_min": 0.8368984375,
+            "common_max": 4.3210963541666665,
+            "identity": 3.043731770833333,
+            "product": 2.34375,
+            "common_sd": 1.0638412588421486,
+            "local_sd": 1.5312004602239708,
+            "erase_questions": 3,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 2,
+              "zero": 0,
+              "positive": 22
+            },
+            "local_min": -6.391640625,
+            "local_max": 11.436380208333333,
+            "common_min": -1.0060156250000005,
+            "common_max": 5.7109635416666675,
+            "identity": 2.312317708333333,
+            "product": 2.34375,
+            "common_sd": 1.6839035187144493,
+            "local_sd": 2.4247894918188373,
+            "erase_questions": 1,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          }
+        },
+        "median": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 23,
+              "zero": 1,
+              "positive": 0
+            },
+            "local_min": -6.25,
+            "local_max": 2.0833333333333335,
+            "common_min": -3.125,
+            "common_max": 0.0,
+            "identity": -2.0833333333333335,
+            "product": -1.5625,
+            "common_sd": 0.6723929420498989,
+            "local_sd": 1.3779954745128078,
+            "erase_questions": 2,
+            "common_min_permutation": [
+              3,
+              1,
+              0,
+              2
+            ],
+            "common_max_permutation": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -5701.354166666667,
+            "local_max": -4213.072916666667,
+            "common_min": -5337.052083333333,
+            "common_max": -4573.739583333333,
+            "identity": -4573.739583333333,
+            "product": -4842.4921875,
+            "common_sd": 242.5879408323343,
+            "local_sd": 190.0031458365588,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              0,
+              2,
+              1
+            ],
+            "common_max_permutation": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 23,
+              "zero": 0,
+              "positive": 1
+            },
+            "local_min": -5.802946875,
+            "local_max": 2.638553125,
+            "common_min": -2.610335416666667,
+            "common_max": 0.4813333333333342,
+            "identity": -1.625959375,
+            "product": -1.0782507812499962,
+            "common_sd": 0.6666515581613365,
+            "local_sd": 1.381851010920266,
+            "erase_questions": 2,
+            "common_min_permutation": [
+              3,
+              1,
+              0,
+              2
+            ],
+            "common_max_permutation": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -1.7794687500000004,
+            "local_max": 7.63553125,
+            "common_min": 2.021645833333333,
+            "common_max": 4.813333333333333,
+            "identity": 2.49040625,
+            "product": 3.2799921874999995,
+            "common_sd": 0.6543673291479747,
+            "local_sd": 1.4275046373650147,
+            "erase_questions": 3,
+            "common_min_permutation": [
+              3,
+              1,
+              0,
+              2
+            ],
+            "common_max_permutation": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": 37.846979166666664,
+            "local_max": 57.70666666666667,
+            "common_min": 43.6540625,
+            "common_max": 51.287187499999995,
+            "identity": 43.6540625,
+            "product": 46.862421875,
+            "common_sd": 2.3472020388646486,
+            "local_sd": 2.556747687099217,
+            "erase_questions": null,
+            "common_min_permutation": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "common_max_permutation": [
+              3,
+              0,
+              2,
+              1
+            ]
+          }
+        },
+        "always": {
+          "accuracy_pp": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -11.458333333333334,
+            "local_max": -2.0833333333333335,
+            "common_min": -8.333333333333334,
+            "common_max": -5.208333333333333,
+            "identity": -6.25,
+            "product": -7.03125,
+            "common_sd": 1.0524614282102553,
+            "local_sd": 1.4959798558692785,
+            "erase_questions": null,
+            "common_min_permutation": [
+              2,
+              1,
+              0,
+              3
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "tokens": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -9731.322916666666,
+            "local_max": -8446.208333333334,
+            "common_min": -9354.302083333334,
+            "common_max": -8844.40625,
+            "identity": -9038.958333333334,
+            "product": -9120.2265625,
+            "common_sd": 128.5398485997312,
+            "local_sd": 169.1632068031754,
+            "erase_questions": null,
+            "common_min_permutation": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "common_max_permutation": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          "utility_0.1": {
+            "global_permutation_signs": {
+              "negative": 24,
+              "zero": 0,
+              "positive": 0
+            },
+            "local_min": -10.584722916666665,
+            "local_max": -1.1328177083333328,
+            "common_min": -7.441787500000004,
+            "common_max": -4.280867708333337,
+            "identity": -5.346104166666667,
+            "product": -6.119227343749998,
+            "common_sd": 1.052899021817286,
+            "local_sd": 1.498680147343247,
+            "erase_questions": null,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "utility_1": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": -2.7222291666666663,
+            "local_max": 7.421822916666668,
+            "common_min": 0.5821250000000001,
+            "common_max": 4.066322916666668,
+            "identity": 2.788958333333334,
+            "product": 2.0889765624999987,
+            "common_sd": 1.063841258842148,
+            "local_sd": 1.5312004602239708,
+            "erase_questions": 3,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          "utility_10": {
+            "global_permutation_signs": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 24
+            },
+            "local_min": 75.435625,
+            "local_max": 93.26364583333333,
+            "common_min": 80.82125,
+            "common_max": 87.53822916666667,
+            "identity": 84.13958333333333,
+            "product": 84.17101562500001,
+            "common_sd": 1.6839035187144498,
+            "local_sd": 2.4247894918188373,
+            "erase_questions": null,
+            "common_min_permutation": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "common_max_permutation": [
+              0,
+              2,
+              3,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "excluded": {}
+  }
+}

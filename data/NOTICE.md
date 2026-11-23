@@ -6,3 +6,5 @@ The numeric records are projections of two public archives. Each row retains a q
 * **aime.csv** is adapted from MathArena, *AIME 2025 outputs*, revision 16e93d3bb9b0a25ea9422893464d46b3c5ff0ae9. The source and this projection are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The publisher's Parquet object SHA-256 is c7980ee5518384624cb690d08b03bfff5892d19141b7ca1de666a2e863b0e589. [Source release](https://huggingface.co/datasets/MathArena/aime_2025_outputs/tree/16e93d3bb9b0a25ea9422893464d46b3c5ff0ae9)
 
 The archive-specific licenses apply separately. The model and question identifiers refer to the original providers. Each digest for the projected CSVs appears in design.json. The projection script reproduces both files byte for byte from the specified original releases.
+
+The supplemental aime_lengths.csv contains Unicode character counts of the released answer strings for the same MathArena records and follows the same CC BY-NC-SA 4.0 terms. repair_aime.py records its SHA-256 and reproduces the projection.

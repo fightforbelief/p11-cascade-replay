@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source": {
+    "replay.py": "91df94a1e9aee7f77dde7350c167a4ffea9be47425644f0c42756d6d96d90388",
+    "study.py": "d6847363bc9afbc5c905a7bece199b7fcb5f69dadebfcd408b1199281b5793ab",
+    "design.json": "9d78c49df89e5b09badec2026eb1e7e1519438d042c9db3fd3ff53ba7ae779c4",
+    "PROTOCOL.md": "7faaf66bc124ddf7f2a0e98bbda90c15d1be1f78bf98c225445deda7974e4b51",
+    "test_replay.py": "98205186735cd812b0499059c8de12d045db7641c2fd3c8a337d49452bbbb2bf"
+  },
+  "result_sha256": "1f22106d7f9fa014bed1e6e8b01b1dd83881ca596f3717d7e8870381e11b8b02"
+}
