@@ -7,7 +7,7 @@ if ($LASTEXITCODE) {throw 'Python environment failed'}
 if ($LASTEXITCODE) {throw 'Unit tests failed'}
 & $py study.py
 if ($LASTEXITCODE) {throw 'Study failed'}
-& $py verify_reports.py
-if ($LASTEXITCODE) {throw 'Report verification failed'}
 & $py repair_aime.py
 if ($LASTEXITCODE) {throw 'AIME character sensitivity failed'}
+& $py verify_reports.py
+if ($LASTEXITCODE) {throw 'Report verification failed'}

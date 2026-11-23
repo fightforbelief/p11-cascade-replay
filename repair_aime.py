@@ -58,7 +58,7 @@ def analyze():
             v.pop(field)
         out[k]=dict(cut_characters=c,median_characters=m,evaluation=v,excluded=excluded)
     dest=Path("reports/aime_characters.json")
-    dest.write_text(json.dumps(out,indent=2,allow_nan=False)+"\n",encoding="utf-8")
+    dest.write_text(json.dumps(out,indent=2,allow_nan=False)+"\n",encoding="utf-8",newline="\n")
     print("character sensitivity",digest(dest))
 
 

@@ -97,11 +97,11 @@ def main():
                              evaluation=evaluate(test,archive,cut,med),full=evaluate(order,archive,cut,med))
     out = Path("reports")
     out.mkdir(exist_ok=True)
-    (out/"results.json").write_text(json.dumps(result,indent=2,allow_nan=False)+"\n",encoding="utf-8")
+    (out/"results.json").write_text(json.dumps(result,indent=2,allow_nan=False)+"\n",encoding="utf-8",newline="\n")
     files=["replay.py","study.py","design.json","PROTOCOL.md","test_replay.py"]
     (out/"execution.json").write_text(json.dumps(dict(python=sys.version,platform=platform.platform(),
         source={name:digest(Path(name)) for name in files},result_sha256=digest(out/"results.json")),
-        indent=2)+"\n",encoding="utf-8")
+        indent=2)+"\n",encoding="utf-8",newline="\n")
 
 
 if __name__=="__main__":
