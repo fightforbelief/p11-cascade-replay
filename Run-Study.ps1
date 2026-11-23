@@ -11,7 +11,7 @@ if ($LASTEXITCODE) {throw 'Study failed'}
 if ($LASTEXITCODE) {throw 'AIME character sensitivity failed'}
 & $py verify_reports.py
 if ($LASTEXITCODE) {throw 'Report verification failed'}
-foreach ($entry in @('question_sensitivity.py','spend_replay.py','price_threshold.py','published_frontiers.py','automix_frontiers.py','verify_frontiers.py')) {
+foreach ($entry in @('question_sensitivity.py','spend_replay.py','price_threshold.py','spend_sensitivity.py','published_frontiers.py','automix_frontiers.py','verify_frontiers.py')) {
     & $py $entry
     if ($LASTEXITCODE) {throw "Frontier study failed at $entry"}
 }

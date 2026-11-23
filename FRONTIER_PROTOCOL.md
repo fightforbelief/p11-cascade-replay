@@ -14,3 +14,7 @@ After the FrugalGPT audit, we inspected AutoMix's source formula, available fiel
 ### Decision boundaries after the fixed-price experiment
 
 The AIME 14B/32B comparison changed sign between the prespecified ratios. For that pair only, solve for the first fallback-to-first output-token price ratio at which the archive can favor escalation and the first at which it must do so. Use the exact cost/score association and report an infinite crossing when it cannot occur. As a secondary FrugalGPT diagnostic, report how many distinct cascade points exceed every direct score even if the direct budget is unrestricted. These follow-ups are descriptive.
+
+### Question sensitivity of the observed AIME reversal
+
+After observing the price reversal on the fixed test set, quantify the dependence of this finding on the question mix. Keep entire four-draw question records together. Resample the 24 held-out questions 5,000 times at the original frozen cutoff and repeat 200 random 6/24 calibration splits with cutoff refitting. For each sample recompute the random gate's matched call rate, the product gate's cost and accuracy, and the direct frontier using that sample's endpoints. Record central percentile ranges at both fixed price ratios and the fraction with a positive call-matched gap and a negative spend-matched gap. All of these diagnostics condition on the released draws.

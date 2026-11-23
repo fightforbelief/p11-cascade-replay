@@ -69,14 +69,18 @@ def verify():
              upper(thresholds['common']['all']),upper(thresholds['local']['all'])]
     assert all(x<=y+1e-8 for x,y in zip(ordered,ordered[1:]))
     assert len(load('question_sensitivity'))==6
+    sensitivity=load('spend_sensitivity')
+    prior=load('question_sensitivity')['aime-medium']
+    assert sensitivity['bootstrap']['call_gap_pp']==prior['bootstrap_accuracy']
+    assert sensitivity['refit_splits']['call_gap_pp']==prior['split_accuracy']
     print('Verified external envelopes, held-out mixtures, IBC reconstructions, grid integrals and price crossings.')
 
 
 if __name__=="__main__":
     verify()
     scripts=("spend_replay.py","replay.py","published_frontiers.py","automix_frontiers.py","price_threshold.py",
-             "verify_frontiers.py","test_spend.py","FRONTIER_PROTOCOL.md","question_sensitivity.py","study.py","Run-Study.ps1")
-    reports=("published_frontiers","automix_frontiers","price_threshold","spend_replay","question_sensitivity")
+             "verify_frontiers.py","test_spend.py","FRONTIER_PROTOCOL.md","question_sensitivity.py","spend_sensitivity.py","study.py","Run-Study.ps1")
+    reports=("published_frontiers","automix_frontiers","price_threshold","spend_replay","question_sensitivity","spend_sensitivity")
     def digest(path):
         return hashlib.sha256(Path(path).read_bytes()).hexdigest()
     record=dict(python=sys.version,platform=platform.platform(),sources={f:digest(f) for f in scripts},
